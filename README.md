@@ -20,7 +20,7 @@ El publico de nuestro proyecto serian personas amantes de los animales que reali
 
 * **Fernanda Checa** - (Pendiente)
 * **Matias Menendez** - (Pendiente)
-* **David Quintero** - (Pendiente)
+* **David Quintero** - Tengo 22 años ,soy de Querétaro, México. Ing. Quimico y proximamente programador. Me gustan los videojuegos y los idiomas (alemán y japones), tambien me gusta mucho el anime y los superheroes. - [DavidQuinter](https://github.com/DavidQuinter)
 * **Martin Estevez** - (Pendiente)
 * **Adolfo Wirth** - Tengo 38 años, soy de Yerba Buena, Tucuman. Contador Publico Nacional y proximamente programador. Apasionado por el futbol, asado y el heavy metal - [adolfowirth](https://github.com/adolfowirth)
 
