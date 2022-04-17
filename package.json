@@ -1,0 +1,26 @@
+{
+  "name": "proyecto_integrador",
+  "version": "1.0.0",
+  "description": "Tienda Eecommerce",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamenendez/Proyecto_integrador_grupo5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamenendez/Proyecto_integrador_grupo5/issues"
+  },
+  "homepage": "https://github.com/mamenendez/Proyecto_integrador_grupo5#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "install": "^0.13.0",
+    "nodemon": "^2.0.15",
+    "npm": "^8.6.0"
+  }
+}
