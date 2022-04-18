@@ -1,4 +1,4 @@
-# Proyecto_integrador_grupo5
+# Proyecto_Integrador_Grupo#5
 Proyecto "Mundo Mascota" (Nombre alternativo a definir)
 ## Temática y descripción del sitio
 
