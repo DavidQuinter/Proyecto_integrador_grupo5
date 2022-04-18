@@ -18,7 +18,8 @@ El publico de nuestro proyecto serian personas amantes de los animales que reali
 
 ## Autores
 
-* **Fernanda Checa** - (Pendiente)
+* **Fernanda Checa** - Tengo 30 años, Vivo en Buenos Aires - Argentina. Soy Ing en Sistemas y proximamente Programadora Web Full Stack. Me encanta la reposteria y nadar. Me apasionan los desafios y las cosas nuevas, 
+soy una persona resiliente y perseverante. - [fer-checa](https://github.com/fer-checa)
 * **Matias Menendez** - Tengo 41 años, soy de Vicente López, Buenos Aires, Argentina. Actualmente estoy trabajando para una compañía de Seguro de Retiro desarrollando en .Net, Me gustan mucho los deportes en general, practico Canicross con mi perrita. - [mamenendez](https://github.com/mamenendez)
 * **David Quintero** - Tengo 22 años ,soy de Querétaro, México. Ing. Quimico y proximamente programador. Me gustan los videojuegos y los idiomas (alemán y japones), tambien me gusta mucho el anime y los superheroes. - [DavidQuinter](https://github.com/DavidQuinter)
 * **Martin Estevez** - (Pendiente)
