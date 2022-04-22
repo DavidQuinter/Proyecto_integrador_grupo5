@@ -22,7 +22,7 @@ El publico de nuestro proyecto serian personas amantes de los animales que reali
 soy una persona resiliente y perseverante. - [fer-checa](https://github.com/fer-checa)
 * **Matias Menendez** - Tengo 41 años, soy de Vicente López, Buenos Aires, Argentina. Actualmente estoy trabajando para una compañía de Seguro de Retiro desarrollando en .Net, Me gustan mucho los deportes en general, practico Canicross con mi perrita. - [mamenendez](https://github.com/mamenendez)
 * **David Quintero** - Tengo 22 años ,soy de Querétaro, México. Ing. Quimico y proximamente programador. Me gustan los videojuegos y los idiomas (alemán y japones), tambien me gusta mucho el anime y los superheroes. - [DavidQuinter](https://github.com/DavidQuinter)
-* **Martin Estevez** - (Pendiente)
+* **Martin Estevez** - Tengo 19 años, soy de Buenos aires, Argentina. Trabajo como Community manager de una distribuidora ferretera y proximamente como programador. Soy un apasionado de la musica, los deportes y los videojuegos. 
 * **Adolfo Wirth** - Tengo 38 años, soy de Yerba Buena, Tucuman. Contador Publico Nacional y proximamente programador. Apasionado por el futbol, asado y el heavy metal - [adolfowirth](https://github.com/adolfowirth)
 
 ## Tablero y Wireframes
