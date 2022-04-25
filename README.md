@@ -32,7 +32,8 @@ soy una persona resiliente y perseverante. - [fer-checa](https://github.com/fer-
 
 * [Tablero de Trello](https://trello.com/b/Do965XMg/dh-full-stack)
 
-* [Wireframes](Pendiente)
+* [Wireframes Web](https://marvelapp.com/prototype/dd57f7g)
+* [Wireframes Mobile](https://marvelapp.com/prototype/6gbgf68)
 
 ## Link proyecto 
 
