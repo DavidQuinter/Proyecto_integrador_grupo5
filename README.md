@@ -1,6 +1,6 @@
 # Proyecto_Integrador Grupo#5
 
-Nombre: " Mundo Mascota DH "
+" Mundo Mascota DH "
 
 ## Temática y descripción del sitio
 
