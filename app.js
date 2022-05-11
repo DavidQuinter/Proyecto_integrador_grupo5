@@ -14,10 +14,21 @@ app.listen(3030,() => {
 
 app.get('/',function(req,res)
 {
-    res.send("Estamos en pagina de inicio");
+    let htmlPath = path.resolve(__dirname, './views/index.html');
+    res.sendFile(htmlPath);
 });
 
 app.get('/carrito', (req,res) => {
     let htmlPath = path.resolve(__dirname, './views/productCart.html');
+    res.sendFile(htmlPath);
+})
+
+app.get('/login', (req,res) => {
+    let htmlPath = path.resolve(__dirname, './views/login.html');
+    res.sendFile(htmlPath);
+})
+
+app.get('/register', (req,res) => {
+    let htmlPath = path.resolve(__dirname, './views/register.html');
     res.sendFile(htmlPath);
 })

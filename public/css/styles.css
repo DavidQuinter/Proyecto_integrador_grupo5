@@ -1,6 +1,32 @@
+/* Paleta de colores.
+Blue Sapphire: #05668D
+Steel Blue: #427AA1
+Alice Blue: #EBF2FA
+Maximum Green: #679436
+Acid Green: #A5BE00
+*/
+
 /* iMPORTAMOS  */
 @import url(normalize.css); /* PREGUNTAR SI VAMOS A USAR NORMALIZE */
 @import url(header.css);
 @import url(main.css);
 @import url(footer.css);
+@import url(carrito.css);
 
+:root {
+  
+    --azul_zafiro: #05668D;
+    --azul_acero: #427AA1;
+    --azul_clarito: #EBF2FA;
+    --verde: #679436;
+    --verde_acido: #A5BE00;
+  }
+
+  
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
