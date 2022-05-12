@@ -4,17 +4,20 @@
     margin: 0%;
 }
 
+/*HEADER*/
+
 .logo{
-    width: 10vw;
+    width: 8vw;
     margin-left: 1%;
-    margin-top: 2%;
-    padding-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 1%;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 header{
     background-color: #05668D;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
     width: 100vw;
 }
 
@@ -98,11 +101,153 @@ ul li{
     margin-bottom: 20px;
 }
 
+/*MAIN*/
+main{
+    background-color: #EBF2FA;
+}
+.orden{
+    color: #679436;
+    font-size: 2vw;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    background-color: #EBF2FA;
+    padding-top: 3%;
+}
 
+/*TABLA*/
 
+table{
+	width: 90%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
 
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+    font-size: 50%;
+}
 
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
 
+.img-tabla{
+    width: 70%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: 10%;
+    padding: 5%;
+}
+
+.tabla-cantidad{
+    width: 50%;
+    font-size: 150%;
+    text-align: left;
+    position: relative;
+}
+
+.plus{
+    position: relative;
+    top: -4px;
+    left: -15px;
+}
+
+.tabla-footer{
+    font-weight: bold;
+    font-size: 100%;
+}
+
+button{
+	padding: 10px 5px 10px 5px;
+	border: 0;
+	border-bottom: 1px solid;
+	font-size: 0.5em;
+	cursor: pointer;
+	margin: 20%;    
+	margin-top: 3px;
+	height: 100%;
+	width: 35%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+    margin-bottom: 4%;
+    border-radius: 10px;
+}
+
+#confirmar-compra{
+    background-color:#679436;
+    color: rgb(219, 219, 13);
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+#seguir-comprando{
+    background-color:#86888a;
+    color: rgb(11, 11, 11);
+}
+
+.boton-final{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 2%;
+    margin-top: 3%;
+    }
+
+/*FOOTER*/
+
+footer{
+    background-color: #05668D;
+    text-align: center
+}
+
+.logo-footer{
+    width: 15vw;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.icono{
+        
+    color: #A5BE00;
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 90%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+.subtitulo{
+    margin-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 2%;
+    font-size: 70%;
+    
+}
+
+.copyrigth{
+    margin-top: 3%;
+    font-weight: bold;
+    padding-bottom: 2%;
+    font-size: 60%;
+}
 
 @media (min-width: 425px){
     .nav-bar{
@@ -133,6 +278,42 @@ ul li{
         height: 5vh;
         border-radius: 5px;
     }
+
+    td, th {
+        
+        font-size: 80%;
+    }
+
+    .boton-final{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin-right: 2%;
+        margin-top: 3%;
+        }
+
+        button{
+            padding: 15px 5px 15px 5px;
+            border: 0;
+            border-bottom: 1px solid;
+            font-size: 1em;
+            cursor: pointer;
+            margin: 20%;
+            margin-top: 3px;
+            height: 100%;
+            width: 30%;
+            display: block;
+            clear: both;
+            margin: 10px 0px;
+            margin-bottom: 3%;
+            border-radius: 10px;
+        }
+
+        .tabla-cantidad{
+            width: 30%;
+            font-size: 150%;
+           
+        }
 }
 
 
@@ -168,4 +349,63 @@ ul li{
     .main-header{
         margin-bottom: -4%;
     }
+
+    /*MAIN*/
+
+    td, th {
+        
+        font-size: 80%;
+    }
+
+    .boton-final{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin-right: 2%;
+        margin-top: 3%;
+        }
+
+        button{
+            padding: 15px 5px 15px 5px;
+            border: 0;
+            border-bottom: 1px solid;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin: 20%;
+            margin-top: 3px;
+            height: 100%;
+            width: 27%;
+            display: block;
+            clear: both;
+            margin: 10px 0px;
+            margin-bottom: 3%;
+            border-radius: 10px;
+        }
+
+        .tabla-cantidad{
+            width: 25%;
+            font-size: 150%;
+           text-align: center;
+        }
+
+        .footer-section{
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .logo-footer{
+            width: 6vw;
+            margin-left: 10%;
+            margin-top: 15%;
+            padding-top: 15px;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+        }
+
+        .copyrigth{
+            margin-top: 1%;
+
+        }
+    
 }

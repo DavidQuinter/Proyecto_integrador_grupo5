@@ -1,0 +1,172 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.logo{
+    width: 8vw;
+    margin-left: 1%;
+    margin-top: 1%;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+header{
+    background-color: #05668D;
+    padding-bottom: 12px;
+    width: 100vw;
+}
+
+
+.icono-header{
+    width: auto;
+    text-align: right;
+    font-size: 100%;
+    margin-right: 5vw;
+    
+}
+
+.carrito{
+    transition: 1s;
+    color: #ebebeb;
+    padding: 5px;
+}
+
+
+.carrito:hover{
+    color: #679436;
+    
+}
+
+.ubicacion{
+    transition: 1s;
+    color: #ebebeb;
+}
+
+.ubicacion:hover{
+    color: #679436;
+}
+
+#busqueda{
+    width: 50%;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+nav ul li a{
+    margin-left: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    padding-left: 5%;
+    margin-bottom: 10px;
+    padding-right: 5%;
+}
+
+ul li{
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.main-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.nav-bar{
+    display: none;
+}
+
+.burger-menu{
+    text-align: center;
+    border: 1px solid #427AA1;
+    width: 40px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #427AA1;
+    color: white;
+    margin: auto;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+@media (min-width: 425px){
+    .nav-bar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+
+    .icono-header{
+        width: auto;
+        text-align: right;
+        font-size: 120%;
+        margin-right: 10vw;
+               
+    }
+    
+    .main-header{
+        margin-bottom: -3%;
+    }
+    
+    #busqueda{
+        width: 60%;
+        height: 5vh;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+
+@media (min-width: 768px){
+    .nav-bar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+
+    .icono-header{
+        width: 10%;
+        text-align: right;
+        font-size: 120%;
+        margin-right: 10vw;
+       
+    }
+        
+    #busqueda{
+        width: 60%;
+        height: 5vh;
+        border-radius: 5px;
+    }
+
+    .main-header{
+        margin-bottom: -4%;
+    }
+}
