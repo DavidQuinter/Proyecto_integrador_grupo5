@@ -21,14 +21,34 @@ app.get('/',function(req,res)
 app.get('/carrito', (req,res) => {
     let htmlPath = path.resolve(__dirname, './views/productCart.html');
     res.sendFile(htmlPath);
-})
+});
+
+app.get('/detalle-producto', (req,res) => {
+    let htmlPath = path.resolve(__dirname, './views/productDetail.html');
+    res.sendFile(htmlPath);
+});
 
 app.get('/login', (req,res) => {
     let htmlPath = path.resolve(__dirname, './views/login.html');
     res.sendFile(htmlPath);
-})
+});
 
 app.get('/register', (req,res) => {
     let htmlPath = path.resolve(__dirname, './views/register.html');
     res.sendFile(htmlPath);
-})
+});
+
+app.get('/marcas', (req,res) => {
+    let htmlPath = path.resolve(__dirname, './views/marcas.html');
+    res.sendFile(htmlPath);
+});
+
+app.get('/sucursales', (req,res) => {
+    let htmlPath = path.resolve(__dirname, './views/sucursales.html');
+    res.sendFile(htmlPath);
+});
+
+app.get('/promociones', (req,res) => {
+    let htmlPath = path.resolve(__dirname, './views/promociones.html');
+    res.sendFile(htmlPath);
+});

@@ -99,12 +99,6 @@ ul li{
     margin-bottom: 20px;
 }
 
-
-
-
-
-
-
 @media (min-width: 425px){
     .nav-bar{
         display: flex;
@@ -135,9 +129,6 @@ ul li{
         border-radius: 5px;
     }
 }
-
-
-
 
 
 @media (min-width: 768px){
