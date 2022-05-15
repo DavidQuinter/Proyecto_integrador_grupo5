@@ -29,4 +29,26 @@ Acid Green: #A5BE00
     padding: 0;
     box-sizing: border-box;
   }
-  
+  html{
+    background-color: #EBF2FA;
+  }
+  p{
+    text-align: justify;
+    
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+h2{
+   margin-top: 25px;
+   margin-left: 25px;
+
+}
+h3{
+    text-align: left;
+    margin-left: 25px;
+}
+.iconito{
+  color: #A5BE00;
+}
