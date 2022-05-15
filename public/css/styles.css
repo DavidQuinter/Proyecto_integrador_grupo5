@@ -14,19 +14,42 @@ Acid Green: #A5BE00
 @import url(carrito.css);
 
 :root {
-  
-    --azul_zafiro: #05668D;
-    --azul_acero: #427AA1;
-    --azul_clarito: #EBF2FA;
-    --verde: #679436;
-    --verde_acido: #A5BE00;
-  }
+  --azul_zafiro: #05668d;
+  --azul_acero: #427aa1;
+  --azul_clarito: #ebf2fa;
+  --verde: #679436;
+  --verde_acido: #a5be00;
+}
 
-  
 * {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form 
+{
+  margin:auto;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+h1 {
+  color: var(--azul_zafiro);
+  font-size: 22px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.input-registro {
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  size: 12px;
+  width: 70%;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 2px #427aa1 solid;
+  color: black;
+  outline: none;
+}
