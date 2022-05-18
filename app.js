@@ -37,6 +37,10 @@ app.get('/register', (req,res) => {
     let htmlPath = path.resolve(__dirname, './views/register.html');
     res.sendFile(htmlPath);
 });
+app.get('/mascotas', (req,res) => {
+    let htmlPath = path.resolve(__dirname, './views/mascotas.html');
+    res.sendFile(htmlPath);
+});
 
 app.get('/marcas', (req,res) => {
     let htmlPath = path.resolve(__dirname, './views/marcas.html');

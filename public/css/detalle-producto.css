@@ -1,67 +1,171 @@
-.img-alimento-perros{
-    width: 50%;
-   margin-left: 50px;
-    border-radius: 10px;
-    border: 15px;
+.section-producto {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.producto {
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+.foto-producto {
+    width: 100%;
+    border: none;
+    background-color: white;
+    display: flex;
     justify-content: center;
-    
-}
-.detalle-producto{
-    justify-content: center;
-    margin-right: 150px;
+    padding: 15px;
+    text-align: center;
 
 }
-.nombre-producto{
-    text-align: right;
-    margin-right: 150px;
-    size: 50px;
-    font-weight: bold;
 
-
-}
-.img-alimento-perros {
+.foto-producto {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     cursor: pointer;
 }
 
-.img-alimento-perros:hover {
+.foto-producto:hover {
     box-shadow: 10px 10px 10px rgb(35, 21, 21);
 }
-.Detalle-producto{
-    text-align: right;
+
+.detalle-Producto {
+    width: 100%;
+    border-top: 10px var(--Gris-claro) solid;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: left;
+    justify-content: center;
+    border-width: 1px;
+    position: relative;
 }
 
+.precio-descuento {
+    display: flex;
+}
 
-@media(min-width: 425px){
-    .img-alimento-perros{
-        width: 50%;
-        text-align: center;
+#precios {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 30%;
+    font-weight: bold;
+}
 
+#descuentos {
+    font-size: 16px;
+    text-align: right;
+    margin-top: 1%;
+    color: #39b54a;
+    width: 70%;
+}
+
+.descripciones {
+    font-size: 16px;
+    text-align: center;
+    color: var(--azul_zafiro);
+    margin-top: 10px;
+    border-top: solid 1px #427aa1;
+    padding: 10px;
+}
+
+@media(min-width: 425px) {
+
+    .section-producto {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-right: 10px;
     }
-    .img-alimento-perros {
+
+    .foto-producto {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         cursor: pointer;
     }
-    
-    .img-alimento-perros:hover {
+
+    .foto-producto:hover {
         box-shadow: 10px 10px 10px rgb(35, 21, 21);
     }
-    .nombre-producto{
+
+    h2 {
+        display: none;
+    }
+
+    .texto-producto {
+        display: none;
+    }
+
+    p {
+        text-align: justify;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+   
+
+    .titulo {
         text-align: center;
     }
-    .Detalle-producto{
-        text-align: center;
+
+    .section-producto {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        cursor: pointer;
     }
-    .boton-final{
-        text-align: center;
-        }
 
+    .section-producto:hover {
+        box-shadow: 10px 10px 10px rgb(35, 21, 21);
+    }
+    .detalle-producto {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        cursor: pointer;
+    }
 
-
-
-
-
+    .detalle-producto:hover {
+        box-shadow: 10px 10px 10px rgb(35, 21, 21);
+    }
+    .producto{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
 }
-@media(min-width: 768px){
 
+@media(min-width: 768px) {
+    .producto {
+        width: 50%;
+        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .boton-final {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 2%;
+        margin-top: 3%;
+    }
+
+     .texto-producto{
+        width: 50px;
+    }
+    .descripciones{
+        font-weight: bold;
+        margin-top: 25px;
+        size: 100px;
+
+    }
+    
+    
 }
