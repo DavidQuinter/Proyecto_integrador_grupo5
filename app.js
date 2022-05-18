@@ -32,3 +32,7 @@ app.get('/register', (req,res) => {
     let htmlPath = path.resolve(__dirname, './views/register.html');
     res.sendFile(htmlPath);
 })
+app.get('/home', (req,res)=>{
+    let htmlPath =path.resolve(__dirame, './views/index,html')
+    res.sendFile(htmlPath)
+})
