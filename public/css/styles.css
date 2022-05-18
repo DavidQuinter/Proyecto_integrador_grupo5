@@ -1,0 +1,83 @@
+/* Paleta de colores.
+Blue Sapphire: #05668D
+Steel Blue: #427AA1
+Alice Blue: #EBF2FA
+Maximum Green: #679436
+Acid Green: #A5BE00
+*/
+
+/* iMPORTAMOS  */
+@import url(normalize.css); /* PREGUNTAR SI VAMOS A USAR NORMALIZE */
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(carrito.css);
+
+:root {
+  --azul_zafiro: #05668d;
+  --azul_acero: #427aa1;
+  --azul_clarito: #ebf2fa;
+  --verde: #679436;
+  --verde_acido: #a5be00;
+
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ebf2fa;
+}
+
+form {
+  margin: auto;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+
+h1 {
+  color: var(--azul_zafiro);
+  font-size: 22px;
+  text-align: center;
+  padding-top: 30px;
+}
+h2 {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+h3 {
+  text-align: left;
+  margin-left: 25px;
+}
+
+p {
+  text-align: justify;
+
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.iconito {
+  color: #a5be00;
+}
+
+.input-registro {
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  size: 12px;
+  width: 70%;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 2px #427aa1 solid;
+  color: black;
+  outline: none;
+}
+
