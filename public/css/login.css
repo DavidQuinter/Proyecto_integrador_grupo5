@@ -1,0 +1,357 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.logo{
+    width: 8vw;
+    margin-left: 1%;
+    margin-top: 1%;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+header{
+    background-color: #05668D;
+    padding-bottom: 12px;
+    width: 100vw;
+}
+
+
+.icono-header{
+    width: auto;
+    text-align: right;
+    font-size: 100%;
+    margin-right: 5vw;
+    
+}
+
+.carrito{
+    transition: 1s;
+    color: #ebebeb;
+    padding: 5px;
+}
+
+
+.carrito:hover{
+    color: #679436;
+    
+}
+
+.ubicacion{
+    transition: 1s;
+    color: #ebebeb;
+}
+
+.ubicacion:hover{
+    color: #679436;
+}
+
+#busqueda{
+    width: 50%;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+nav ul li a{
+    margin-left: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    padding-left: 5%;
+    margin-bottom: 10px;
+    padding-right: 5%;
+}
+
+ul li{
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.main-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.nav-bar{
+    display: none;
+}
+
+.burger-menu{
+    text-align: center;
+    border: 1px solid #427AA1;
+    width: 40px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #427AA1;
+    color: white;
+    margin: auto;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* MAIN */
+
+.caja-formulario {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    transition: all .5s ease-out;
+    }
+
+.boton-mostrar-contraseña{
+     font-size: 12px;
+    display: flex;
+    justify-content: center;
+    }
+    
+.h1 ingresar-cuenta{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario{
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color:#427AA1;
+    text-align: center;
+}
+
+.crear-cuenta{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+}
+
+.recuperar-contraseña{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+}
+
+.ingresar-cuenta{
+    font-family: 'Montserrat', sans-serif;
+    padding: 2.7rem 0;
+    font-size: 1.7rem;
+}
+
+.iconos{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 0.9rem;
+}
+
+.border-icons {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: solid thin white;
+    border-radius: 1.5rem;
+    transition: all .3s ease-in
+}
+
+.border-icons:hover {
+    background-color:aliceblue;
+    cursor: pointer;
+}
+
+.formulario input{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: 0.9;
+    color: white;
+}
+
+button{
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: #222;
+    font-size: 20px;
+}
+
+
+
+    /* FOOTER */
+
+    footer{
+        background-color: #05668D;
+        text-align: center;
+    }
+    
+    .logo-footer{
+        width: 15vw;
+        text-align: center;
+        padding-top: 5%;
+    }
+    
+    .icono{
+            
+        color: #A5BE00;
+        font-size: 1.5em;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .titulo{
+        font-weight: bold;
+        font-size: 90%;
+        margin-top: 1%;
+        margin-bottom: 0%;
+    }
+    
+    .subtitulo{
+        margin-top: 1%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-bottom: 2%;
+        font-size: 70%;
+        
+    }
+    
+    .copyrigth{
+        margin-top: 3%;
+        font-weight: bold;
+        padding-bottom: 2%;
+        font-size: 60%;
+    }
+
+    /* MQ */
+
+    @media (min-width: 425px){
+        .nav-bar{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-top: 10px;
+        }
+    
+        .burger-menu{
+            display: none;
+        }
+    
+        .icono-header{
+            width: auto;
+            text-align: right;
+            font-size: 120%;
+            margin-right: 10vw;
+                   
+        }
+        
+        .main-header{
+            margin-bottom: -3%;
+        }
+        
+        #busqueda{
+            width: 60%;
+            height: 5vh;
+            border-radius: 5px;
+        }
+    
+        td, th {
+            
+            font-size: 80%;
+        }
+    }
+    
+    
+    
+    
+    
+    @media (min-width: 768px){
+        .nav-bar{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-top: 10px;
+        }
+    
+        .burger-menu{
+            display: none;
+        }
+    
+        .icono-header{
+            width: 10%;
+            text-align: right;
+            font-size: 120%;
+            margin-right: 10vw;
+           
+        }
+            
+        #busqueda{
+            width: 60%;
+            height: 5vh;
+            border-radius: 5px;
+        }
+    
+        .main-header{
+            margin-bottom: -4%;
+        }
+    
+        /*MAIN*/
+    
+        td, th {
+            
+            font-size: 80%;
+        }
+    
+            .footer-section{
+                display: flex;
+                align-items: flex-start;
+            }
+    
+            .logo-footer{
+                width: 6vw;
+                margin-left: 10%;
+                margin-top: 15%;
+                padding-top: 15px;
+                margin-bottom: 15px;
+                padding-bottom: 5px;
+                padding-left: 10px;
+            }
+    
+            .copyrigth{
+                margin-top: 1%;
+    
+            }
+        
+    }
