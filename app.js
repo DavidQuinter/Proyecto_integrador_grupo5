@@ -12,7 +12,7 @@ app.listen(3030,() => {
 });
 
 
-app.get('/home', (req,res) =>{
+app.get('/', (req,res) =>{
     let htmlPath = path.resolve(__dirname, './views/index.html');
     res.sendFile(htmlPath);
 });

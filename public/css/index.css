@@ -1,9 +1,7 @@
-
 @import url(normalize.css); /* PREGUNTAR SI VAMOS A USAR NORMALIZE */
 @import url(header.css);
 @import url(footer.css);
 @import url(carrito.css);
-
 :root{
     --azul1:#05668D;
     --azul2: #427AA1;
@@ -19,8 +17,10 @@
 }
 html{
     font-size: 62.5%;
+    height: 100%;
 }
 body{
+    min-height: 100vh;
     font-size: 16px;
     margin: 0%;
     padding: 0%;
@@ -30,10 +30,92 @@ main{
     flex-direction: column;
     background-color: #fff;
 }
-iframe{
+/**/
+nav{
+    background-color: var(--azul1);
+}
+.contenedor-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline; /* tambien puede ser flex-start*/
+}
+.busqueda{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0 0 0;
+}
+.contenedor-botones{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.conetendor-busqueda{
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: baseline;
+    justify-content:baseline;
+    border-radius: .5rem ;
+    background-color: var(--azul3);
+    height: 3.4rem;
+}
+.barra{
+    align-items: baseline;
+    margin: auto;
+    padding: auto;
+    border-radius: .5rem;
+    border:none;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+.lupa{
+    border-radius: 1rem;
+    width: 3rem;
+    background-color: transparent;
+    border: none;
     margin: auto;
     padding: auto;
 }
+button.lupa{
+    margin: auto;
+    padding: auto;
+}
+ion-icon {
+    color: var(--azul1);
+    font-size: 2rem;
+}
+.nav-link{
+    text-decoration: none;
+    color: var(--azul3)
+}
+.logo{
+    position: absolute;
+    height: 6rem;
+    margin: auto;
+    padding: auto;
+    left: 4rem;
+    top: 1rem;
+}
+.iconos{
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+}
+.dos-iconos{
+    font-size: 3rem;
+    background-color: transparent;
+    color: var(--azul3);
+}
+button.icono-boton{
+    background-color: var(--azul1);
+    border:none;
+    cursor: pointer;
+}
+/**/
 .container-slider{
     z-index: 2;
     padding: auto;
@@ -101,7 +183,11 @@ iframe{
     font-size: 3rem ;
     color:var(--azul1)
 }
+.texto-envios{
+    color:#05668D;
+}
 .contenedor-producto{
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     padding: auto;
@@ -147,4 +233,96 @@ iframe{
 .boton--buy--home:hover{
     background-color: var(--azul1);
     color: var(--azul3);
+}
+@media (max-width: 780px){
+    /* Tablets */
+}
+@media (max-width: 460px){
+    /* Smartphones*/
+    nav{
+        background-color: #ffffff;
+        margin: auto;
+        height: 15rem;
+        width: auto;
+    }
+    .contenedor-nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenedor-logo{
+        align-self: flex-start;
+        order:1;
+    }
+    .busqueda{
+        align-self: flex-end;
+        margin: auto 10% auto auto;
+        order:3;
+        padding: 5%;
+    }
+    .iconos{
+        align-self: flex-start;
+        order:2;
+        margin-left: 70%;
+    }
+    .logo{
+        width: 4rem;
+    }
+
+    button.icono-boton{
+        background-color: #fff;
+        border:none;
+        cursor: pointer;
+        width: 4rem;
+        align-items: baseline;
+    }
+    .nav-link{
+        color: #05668D;
+        background-color: var(--azul3);
+        padding: 0% 10%;
+        border-radius: 1rem;
+        font-size: 13px;
+    }
+    .nav-link:hover{
+        background-color: var(--azul1);
+        color: var(--azul3);
+    }
+    .dos-iconos{
+        color:var(--azul1);
+    }
+   
+    .contenedor-producto{
+        overflow: hidden;
+    }
+    .conetendor-busqueda{
+        height:2.5rem;
+        justify-self: baseline;
+        display: none;
+    }
+    .barra{
+        height: 90%;
+    }
+    .contenedor--iconos--envio{
+        margin: 5% auto;
+        height: 4.5rem;
+    }
+    .tamaño{
+        font-size: 1.5rem;
+    }
+    .texto-envios{
+        font-size: 10px;
+    }
+
+    .img-p{
+        height: 10rem;
+        width: 10rem;
+    }
+    .descripcion--corta{
+        font-size: 12px;
+    }
+    .precio{
+        font-size: 1.5rem;
+    }
+    .boton--buy--home{
+        font-size: 1.5rem;
+    }
 }

@@ -14,30 +14,63 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- Aqui ira el link para los iconos -->
     <!---<script src="https://kit.fontawesome.com/18dc98f3b0.js" crossorigin="anonymous"></script>
-    <!-- Aqui iran los link para Mi CSS -->
-    <link rel="stylesheet" href="/public/css/index.css">
-    <link rel="frame" href="./nav.html">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylessheet" href="/public/css/nav.css">
-    <script src="https://kit.fontawesome.com/1e24a630c6.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/1e24a630c6.js" crossorigin="anonymous"></script> Aqui iran los link para Mi CSS -->
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="stylesheet" media="(max-width: 780px)" href="css/index.css">
 </head>
 <body>
-    <iframe src="nav.html" style="width:100%; height:100%; border:none"></iframe>
+    <nav>
+        <div class="contenedor-nav">
+            <div class="contenedor-logo">
+                <img class="logo" src="/img/Logo.jpg"> <!--- aqui va el logo--->
+            </div>
+
+
+            <div class = "busqueda" style="flex-grow: 5;">
+                <div class="conetendor-busqueda">
+                    <input class="barra" type="text">
+                    <button class="lupa"><ion-icon name="search-outline"></ion-icon></button>
+                </div>
+                <ul class="contenedor-botones">
+                    <li class="nav-menu">
+                        <a href="#" class="nav-link">Mascotas</a>
+                    </li>
+                    <li class="nav-menu">
+                        <a href="#" class="nav-link">Marcas</a>
+                    </li>
+                    <li class="nav-menu">
+                        <a href="#" class="nav-link">Sucursales</a>
+                    </li>
+                    <li class="nav-menu">
+                        <a href="#" class="nav-link">Promociones</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="iconos" style="flex-grow: 1;">
+                <button class="icono-boton"><ion-icon name="location-outline" class="dos-iconos"></ion-icon></button>
+                <button class="icono-boton"><ion-icon name="cart-outline" class="dos-iconos"></ion-icon></button>
+            </div>    
+        </div>
+    </nav>   
     <main>
+        <br/>
         <div class="container-slider">
             <div class="slider" id="slider">
 
                 <div class="slider__section">
-                    <img src="/public/img/promocional.PNG" alt="" class="slider__img">
+                    <img src="/img/promocional.PNG" alt="" class="slider__img">
                 </div>
                 <div class="slider__section">
-                    <img src="/public/img/slider2.jpg" alt="" class="slider__img">
+                    <img src="/img/slider2.jpg" alt="" class="slider__img">
                 </div>
                 <div class="slider__section">
-                    <img src="/public/img/slider3.webp" alt="" class="slider__img">
+                    <img src="/slider3.webp" alt="" class="slider__img">
                 </div>
                 <div class="slider__section">
-                    <img src="/public/img/slider4.jpg" alt="" class="slider__img">
+                    <img src="/img/slider4.jpg" alt="" class="slider__img">
                 </div>
             </div>
             <div class="slider__btn slider__btn--right" id="btn-right">&#62</div>
@@ -47,46 +80,45 @@
         <div class="contenedor--iconos--envio">
             <div class="mini-caja" style="flex: 1; text-align: center;">
             <ion-icon name="cube-outline" class="uno tamaño"></ion-icon>
-            <p style="color:#05668D">Entrega inmediata</p>
+            <p class="texto-envios">Entrega inmediata</p>
             </div>
             <div class="mini-caja" style="flex: 1; text-align: center;">
             <ion-icon name="car-outline" class="dos tamaño"></ion-icon>
-            <p style="color:#05668D">Envío rapido</p>
+            <p class="texto-envios">Envío rapido</p>
             </div>
             <div class="mini-caja" style="flex: 1; text-align: center;">
             <ion-icon name="cube-outline" class="tres tamaño"></ion-icon>
-            <p style="color:#05668D">Retiro en sucursal</p>
+            <p class="texto-envios">Retiro en sucursal</p>
             </div>
-
         </div>
         <div class="contenedor-producto">
             <div class="vista--producto">
-                <img src="/public/img/croquetas.webp" alt="" class="img-p">
-                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam doloribus praesentium ratione exercitationem expedita.</p>
+                <img src="/img/croquetas.webp" alt="" class="img-p">
+                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div class="mini--contenedor--dos">
                     <p class="precio">50.00$</p>
                     <button class="boton--buy--home">buy</button>
                 </div>
             </div>
             <div class="vista--producto">
-                <img src="/public/img/croquetas.webp" alt="" class="img-p">
-                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam doloribus praesentium ratione exercitationem expedita.</p>
+                <img src="/img/croquetas.webp" alt="" class="img-p">
+                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div class="mini--contenedor--dos">
                     <p class="precio">50.00$</p>
                     <button class="boton--buy--home">buy</button>
                 </div>
             </div>
             <div class="vista--producto">
-                <img src="/public/img/croquetas.webp" alt="" class="img-p">
-                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam doloribus praesentium ratione exercitationem expedita.</p>
+                <img src="/img/croquetas.webp" alt="" class="img-p">
+                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div class="mini--contenedor--dos">
                     <p class="precio">50.00$</p>
                     <button class="boton--buy--home">buy</button>
                 </div>
             </div>
             <div class="vista--producto">
-                <img src="/public/img/croquetas.webp" alt="" class="img-p">
-                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam doloribus praesentium ratione exercitationem expedita.</p>
+                <img src="/img/croquetas.webp" alt="" class="img-p">
+                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div class="mini--contenedor--dos">
                     <p class="precio">50.00$</p>
                     <button class="boton--buy--home">buy</button>
@@ -127,7 +159,7 @@
         </section>
 
     </footer>
-    <script src="/slider.js"></script>
+    <script type="text/javascript" src="javascript/slider.js"></script>
 </body>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
