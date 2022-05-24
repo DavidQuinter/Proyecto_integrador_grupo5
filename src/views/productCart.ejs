@@ -14,7 +14,9 @@
     rel="stylesheet" />
     <script src="https://kit.fontawesome.com/1e24a630c6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/carrito.css">
+    <!-- <link rel="stylesheet" href="/css/carrito.css"> -->
+    <link rel="stylesheet" href="/css/footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     
 </head>
 
@@ -72,7 +74,7 @@
                         <td>Detalle del Producto</td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td class="trash">Eliminar <i class="fa-solid fa-trash-can"></i></td>
                     </tr>
 
                     <tr class="tabla-cuerpo">
@@ -86,7 +88,7 @@
                         <td>Detalle del Producto</td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td class="trash">Eliminar <i class="fa-solid fa-trash-can"></i></td>
                     </tr>
 
                     <tr class="tabla-footer">
@@ -104,7 +106,7 @@
             </div>
     </main>
 
-    <footer>
+    <!-- <footer>
         <div class="footer-section">
             <section class="pie">
                 <img src="/img/logo.jpg" alt="logo mundo mascota DH" class="logo-footer">
@@ -133,7 +135,8 @@
             
         </section>
 
-    </footer>
+    </footer> -->
+    <%- include ('./partials/footer.ejs') %> 
 </body>
 
 </html>
