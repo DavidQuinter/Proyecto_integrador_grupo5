@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Etiqueta VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo que aparecera en el navegador -->
+    <title>Mundo Mascota DH - Mascotas</title>
+
+    <!-- Aqui iran los link para GOOGLE Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+ 
+
+    <!-- Aqui ira el link para los iconos -->
+    <script src="https://kit.fontawesome.com/18dc98f3b0.js" crossorigin="anonymous"></script>
+
+
+    <!-- Aqui iran los link para Mi CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/mascotas.css">
+    
+    <script src="https://kit.fontawesome.com/1e24a630c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+
+<!--------------------- BODY ----------------->
+<body>
+     
+    <!-- <header>
+        <div class="main-header">
+            <img src="/img/logo.jpg" alt="logo mundo mascota DH" class="logo">
+            <input id="busqueda" type="text" placeholder="Buscar alimentos, masrcas, mascotas...">
+
+            <div class="icono-header">
+                <a href="/carrito"><i class="fa-solid fa-cart-shopping carrito"></i></a>
+                
+            </div>
+    </div>
+
+    <div >
+        <nav >
+            <ul class="nav-bar">
+                <li><a href="/mascotas">Mascotas</a> <i class="fas fa-paw iconito"></i></li>
+                <li><a href="/marcas">Marcas</a> <i class="fas fa-tags iconito"> </i></li>
+                <li><a href="/sucursales">Sucursales</a> <i  class="fa-solid fa-location-dot ubicacion iconito"></i> </li>
+                <li><a href="/promociones">Promociones</a><i class="fas fa-badge-dollar iconito"></i></li>
+                <li><a href="/login">Ingresa</a> <i class="fas fa-user iconito"></i> </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="burger-menu">
+    <i class="fas fa-bars menu"></i>
+    </div>
+
+    </header> -->
+    <%- include('./partials/header')  %> 
+    <main>
+        <h2>Seccion Mascotas</h2>
+        <p>Elegi los mejores productos para ellos...</p>
+
+        <section class="perro">
+            <img src="/img/mascota-perro.jpg" alt="categoria-perro" class="logo-perro">
+
+            <div class="detalle-Producto">
+
+                <div class="precio-descuento">
+                    <p id="precios"></p>
+                    <p id="descuentos">PERROS</p>
+
+                </div>
+
+
+        </section>
+
+        <section class="gato">
+            <img src="/img/mascota-gato.jpg" alt="categoria-gato" class="logo-gato">
+            
+            <div class="detalle-Producto">
+
+                <div class="precio-descuento">
+                    <p id="precios"></p>
+                    <p id="descuentos">GATOS</p>
+
+                </div>
+
+
+        </section>
+
+    </main>
+
+    <!-- <footer>
+        <div class="footer-section">
+            <section class="pie">
+                <img src="/img/logo.jpg" alt="logo mundo mascota DH" class="logo-footer">
+            </section>
+            <section class="pie">
+                <i class="fa-solid fa-credit-card icono"></i>
+                <p class="titulo">Pagá con tarjeta o en efectivo</p>
+                <p class="subtitulo">con VISA o MASTERCARD, tenés cuotas sin interés con tarjeta o efectivo en
+                    puntos de pago. ¡Y siempre es seguro!</p>
+            </section>
+            <section class="pie">
+                <i class="fa-solid fa-gift icono"></i>
+                <p class="titulo">Envío gratis desde $ 1.000</p>
+                <p class="subtitulo">Solo por estar registrad@ en MUNDO MASCOTA DH tenés envíos gratis en miles de
+                    productos. Es un beneficio de Mercado Puntos.</p>
+            </section>
+            <section class="pie">
+                <i class="fa-solid fa-user-shield icono"></i>
+                <p class="titulo">Seguridad, de principio a fin</p>
+                <p class="subtitulo">¿No te gusta? ¡Devolvelo! En MUNDO MASCOTA DH, no hay nada que no puedas hacer,
+                    porque estás siempre protegid@.</p>
+            </section>
+        </div>
+        <section class="copyrigth">
+            <p>Copyright © 1999-2022 MUNDO MASCOTA DH</p>
+            
+        </section>
+
+    </footer> -->
+    <%- include ('./partials/footer.ejs') %>
+</body>
+
+</html>
