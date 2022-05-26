@@ -47,19 +47,6 @@ form label{
     background: rgb(58, 58, 234);
 
 }
-/* 
-.enviar-login {
-    width: 40%;
-    padding: 12px 0px;
-    font-size: 14px;
-    font-weight: bold;
-    color: white;
-    background: darkblue;
-    border: none;
-    border-radius: 5px;
-    transition: 1s all;
-    cursor: pointer;
-} */
 
 .enviar-login:hover {
     background-color: rgb(58, 58, 234);
