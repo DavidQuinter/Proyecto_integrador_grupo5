@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Etiqueta VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo que aparecera en el navegador -->
+    <title>Mundo Mascota DH</title>
+    <!-- Aqui iran los link para GOOGLE Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Aqui ira el link para los iconos -->
+    <!---<script src="https://kit.fontawesome.com/18dc98f3b0.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/1e24a630c6.js" crossorigin="anonymous"></script> Aqui iran los link para Mi CSS -->
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="stylesheet" media="(max-width: 780px)" href="css/index.css">
+    <link rel="stylesheet" href="/css/styles.css">
+  
+</head>
+<body>
+    <nav>
+        <div class="contenedor-nav">
+            <div class="contenedor-logo">
+                <img class="logo" src="/img/Logo.jpg"> <!--- aqui va el logo--->
+            </div>
+
+
+            <div class = "busqueda" style="flex-grow: 5;">
+                <div class="conetendor-busqueda">
+                    <input class="barra" type="text">
+                    <button class="lupa"><ion-icon name="search-outline"></ion-icon></button>
+                </div>
+                <ul class="contenedor-botones">
+                    <li class="nav-menu">
+                        <a href="#" class="nav-link">Mascotas</a>
+                    </li>
+                    <li class="nav-menu">
+                        <a href="#" class="nav-link">Marcas</a>
+                    </li>
+                    <li class="nav-menu">
+                        <a href="#" class="nav-link">Sucursales</a>
+                    </li>
+                    <li class="nav-menu">
+                        <a href="#" class="nav-link">Promociones</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="iconos" style="flex-grow: 1;">
+                <button class="icono-boton"><ion-icon name="location-outline" class="dos-iconos"></ion-icon></button>
+                <button class="icono-boton"><ion-icon name="cart-outline" class="dos-iconos"></ion-icon></button>
+            </div>    
+        </div>
+    </nav>   
+    <main>
+        <br/>
+        <div class="container-slider">
+            <div class="slider" id="slider">
+
+                <div class="slider__section">
+                    <img src="/img/promocional.PNG" alt="" class="slider__img">
+                </div>
+                <div class="slider__section">
+                    <img src="/img/slider2.jpg" alt="" class="slider__img">
+                </div>
+                <div class="slider__section">
+                    <img src="/slider3.webp" alt="" class="slider__img">
+                </div>
+                <div class="slider__section">
+                    <img src="/img/slider4.jpg" alt="" class="slider__img">
+                </div>
+            </div>
+            <div class="slider__btn slider__btn--right" id="btn-right">&#62</div>
+            <div class="slider__btn slider__btn--left" id="btn-left">&#60</div>
+        </div>
+
+        <div class="contenedor--iconos--envio">
+            <div class="mini-caja" style="flex: 1; text-align: center;">
+            <ion-icon name="cube-outline" class="uno tamaño"></ion-icon>
+            <p class="texto-envios">Entrega inmediata</p>
+            </div>
+            <div class="mini-caja" style="flex: 1; text-align: center;">
+            <ion-icon name="car-outline" class="dos tamaño"></ion-icon>
+            <p class="texto-envios">Envío rapido</p>
+            </div>
+            <div class="mini-caja" style="flex: 1; text-align: center;">
+            <ion-icon name="cube-outline" class="tres tamaño"></ion-icon>
+            <p class="texto-envios">Retiro en sucursal</p>
+            </div>
+        </div>
+        <div class="contenedor-producto">
+            <div class="vista--producto">
+                <img src="/img/croquetas.webp" alt="" class="img-p">
+                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="mini--contenedor--dos">
+                    <p class="precio">50.00$</p>
+                    <button class="boton--buy--home">buy</button>
+                </div>
+            </div>
+            <div class="vista--producto">
+                <img src="/img/croquetas.webp" alt="" class="img-p">
+                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="mini--contenedor--dos">
+                    <p class="precio">50.00$</p>
+                    <button class="boton--buy--home">buy</button>
+                </div>
+            </div>
+            <div class="vista--producto">
+                <img src="/img/croquetas.webp" alt="" class="img-p">
+                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="mini--contenedor--dos">
+                    <p class="precio">50.00$</p>
+                    <button class="boton--buy--home">buy</button>
+                </div>
+            </div>
+            <div class="vista--producto">
+                <img src="/img/croquetas.webp" alt="" class="img-p">
+                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="mini--contenedor--dos">
+                    <p class="precio">50.00$</p>
+                    <button class="boton--buy--home">buy</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br/>
+<!-- ---------------------------------- FOOTER -------------------------------------------- -->
+
+    <footer>
+        <div class="footer-section">
+            <section class="pie">
+                <img src="./img/logo.jpg" alt="logo mundo mascota DH" class="logo-footer">
+            </section>
+            <section class="pie">
+                <i class="fa-solid fa-credit-card icono"></i>
+                <p class="titulo">Pagá con tarjeta o en efectivo</p>
+                <p class="subtitulo">con VISA o MASTERCARD, tenés cuotas sin interés con tarjeta o efectivo en
+                    puntos de pago. ¡Y siempre es seguro!</p>
+            </section>
+            <section class="pie">
+                <i class="fa-solid fa-gift icono"></i>
+                <p class="titulo">Envío gratis desde $ 1.000</p>
+                <p class="subtitulo">Solo por estar registrad@ en MUNDO MASCOTA DH tenés envíos gratis en miles de
+                    productos. Es un beneficio de Mercado Puntos.</p>
+            </section>
+            <section class="pie">
+                <i class="fa-solid fa-user-shield icono"></i>
+                <p class="titulo">Seguridad, de principio a fin</p>
+                <p class="subtitulo">¿No te gusta? ¡Devolvelo! En MUNDO MASCOTA DH, no hay nada que no puedas hacer,
+                    porque estás siempre protegid@.</p>
+            </section>
+        </div>
+        <section class="copyrigth">
+            <p>Copyright © 1999-2022 MUNDO MASCOTA DH</p>
+            
+        </section>
+
+    </footer>
+    <script type="text/javascript" src="javascript/slider.js"></script>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>
