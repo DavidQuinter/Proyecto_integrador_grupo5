@@ -11,8 +11,4 @@ router.get('/productDetail',ventaController.productDetail);
 router.get('/sucursales',ventaController.sucursales);
 
 
-
-
-
-
 module.exports = router;

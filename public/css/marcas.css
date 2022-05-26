@@ -5,3 +5,67 @@
     border-radius: 10px;
     margin-bottom: 25px;
 }
+/* FORMULARIO CONSULTAS */
+
+form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+form label{
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 10px;
+    border-radius: 5px;
+}
+.input {
+    font-size: 80%;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+.enviar {
+    width: 20%;
+    padding: 15px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: darkblue;
+    border: 1px solid;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: rgb(58, 58, 234);
+
+}
+/* 
+.enviar-login {
+    width: 40%;
+    padding: 12px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: darkblue;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+} */
+
+.enviar-login:hover {
+    background-color: rgb(58, 58, 234);
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
