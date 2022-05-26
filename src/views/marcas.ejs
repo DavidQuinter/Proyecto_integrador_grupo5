@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mundo Mascota DH-Carrito de Compras</title>
+    <title>Mundo Mascota DH-Marcas</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,13 +16,20 @@
     
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/marcas.css">
+
+    <script src="https://kit.fontawesome.com/1e24a630c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
     
 </head>
 
 <body>
 <!--------------------- BODY ----------------->
-    <header>
-    <!--------------------- HEADER ----------------->
+<!--     <header>
+    
         <div class="main-header">
                 <img src="/img/logo.jpg" alt="logo mundo mascota DH" class="logo">
                 <input id="busqueda" type="text" placeholder="Buscar alimentos, masrcas, mascotas...">
@@ -49,8 +56,8 @@
         <i class="fas fa-bars menu"></i>
         </div>
 
-    </header>
- <!-------------------- MAIN --------------------->
+    </header> -->
+    <%- include('./partials/header')  %> 
     <main>
         <h2>
             Las mejores marcas, las encontras con nosotros...
@@ -60,7 +67,7 @@
 
     </main>
 <!-- ---------------------------------- FOOTER -------------------------------------------- -->
-    <footer>
+   <!--  <footer>
         <div class="footer-section">
             <section class="pie">
                 <img src="/img/logo.jpg" alt="logo mundo mascota DH" class="logo-footer">
@@ -89,7 +96,8 @@
             
         </section>
 
-    </footer>
+    </footer> -->
+    <%- include ('./partials/footer.ejs') %> 
 </body>
 
 </html>

@@ -26,6 +26,10 @@ const ventaController =
     {
         res.render('sucursales');        
     },
+    mascotas: (req, res) => 
+    {
+        res.render('mascotas');        
+    },
 }
 
 

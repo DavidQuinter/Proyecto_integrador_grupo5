@@ -5,17 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mundo Mascota DH</title>
+    <title>Mundo Mascota DH - Iniciar Sesion</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/18dc98f3b0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/login.css">
 
+    <script src="https://kit.fontawesome.com/1e24a630c6.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="/css/styles.css"> -->
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <!--------------------- HEADER LOGIN ----------------->
 <body>
-    <header>
+    <%- include('./partials/header')  %> 
+    <!-- <header>
 <div class="main-header">
             <img src="/img/logo.jpg" alt="logo mundo mascota DH" class="logo">
             <input id="busqueda" type="text" placeholder="Buscar productos, marcas">
@@ -42,7 +49,7 @@
     <i class="fas fa-bars menu"></i>
     </div>
 
-    </header>
+    </header> -->
 
     <!-------------------- MAIN --------------------->
 
@@ -77,7 +84,7 @@
 
 <!-- ---------------------------------- FOOTER -------------------------------------------- -->
 
-<footer>
+<!-- <footer>
         <div class="footer-section">
             <section class="pie">
                 <img src="/img/logo.jpg" alt="logo mundo mascota DH" class="logo-footer">
@@ -106,7 +113,7 @@
             
         </section>
 
-    </footer>
-    
+    </footer> -->
+    <%- include ('./partials/footer.ejs') %> 
 </body>
 </html>

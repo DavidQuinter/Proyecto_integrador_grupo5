@@ -18,9 +18,10 @@ const indexRouter = require('./routers/indexRouter');
 const seguridadRouter = require('./routers/seguridadRouter');
 const ventaRouter = require('./routers/ventaRouter');
 
+
 //Servidor.
-app.listen(3030,() => {
-    console.log("Servidor corriendo en http://localhost:3030");
+app.listen(3050,() => {
+    console.log("Servidor corriendo en http://localhost:3050");
 });
 
 
@@ -28,3 +29,4 @@ app.listen(3030,() => {
 app.use('/', indexRouter);
 app.use('/seguridad', seguridadRouter);
 app.use('/venta', ventaRouter);
+

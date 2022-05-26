@@ -9,7 +9,6 @@ Acid Green: #A5BE00
 /* iMPORTAMOS  */
 @import url(normalize.css); /* PREGUNTAR SI VAMOS A USAR NORMALIZE */
 @import url(header.css);
-@import url(main.css);
 @import url(footer.css);
 @import url(carrito.css);
 
@@ -62,10 +61,6 @@ p {
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 25px;
-}
-
-.iconito {
-  color: #a5be00;
 }
 
 .input-registro {

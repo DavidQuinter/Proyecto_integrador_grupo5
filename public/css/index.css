@@ -31,14 +31,15 @@ main{
     background-color: #fff;
 }
 /**/
+
+/* 
 nav{
     background-color: var(--azul1);
 }
 .contenedor-nav{
     display: flex;
     justify-content: space-evenly;
-    align-items: baseline; /* tambien puede ser flex-start*/
-}
+    align-items: baseline; 
 .busqueda{
     display: flex;
     flex-direction: column;
@@ -115,6 +116,8 @@ button.icono-boton{
     border:none;
     cursor: pointer;
 }
+ */
+
 /**/
 .container-slider{
     z-index: 2;
@@ -239,7 +242,7 @@ button.icono-boton{
 }
 @media (max-width: 460px){
     /* Smartphones*/
-    nav{
+    /* nav{
         background-color: #ffffff;
         margin: auto;
         height: 15rem;
@@ -304,7 +307,7 @@ button.icono-boton{
     .contenedor--iconos--envio{
         margin: 5% auto;
         height: 4.5rem;
-    }
+    } */
     .tamaño{
         font-size: 1.5rem;
     }

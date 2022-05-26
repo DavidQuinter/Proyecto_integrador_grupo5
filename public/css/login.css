@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0%;
 }
-
+/* 
 .logo{
     width: 8vw;
     margin-left: 1%;
@@ -97,7 +97,7 @@ ul li{
     padding: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
+} */
 
 /* MAIN */
 
@@ -193,6 +193,10 @@ ul li{
     color: white;
 }
 
+::placeholder{
+    color: aliceblue;
+}
+
 button{
     width: 60%;
     margin: auto;
@@ -211,7 +215,7 @@ button{
 
 
     /* FOOTER */
-
+/* 
     footer{
         background-color: #05668D;
         text-align: center;
@@ -253,12 +257,12 @@ button{
         font-weight: bold;
         padding-bottom: 2%;
         font-size: 60%;
-    }
+    } */
 
     /* MQ */
 
     @media (min-width: 425px){
-        .nav-bar{
+        /* .nav-bar{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
@@ -285,7 +289,7 @@ button{
             width: 60%;
             height: 5vh;
             border-radius: 5px;
-        }
+        } */
     
         td, th {
             
@@ -298,7 +302,7 @@ button{
     
     
     @media (min-width: 768px){
-        .nav-bar{
+        /* .nav-bar{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
@@ -326,14 +330,14 @@ button{
         .main-header{
             margin-bottom: -4%;
         }
-    
+     */
         /*MAIN*/
     
         td, th {
             
             font-size: 80%;
         }
-    
+    /* 
             .footer-section{
                 display: flex;
                 align-items: flex-start;
@@ -352,6 +356,6 @@ button{
             .copyrigth{
                 margin-top: 1%;
     
-            }
+            } */
         
     }

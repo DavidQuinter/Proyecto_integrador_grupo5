@@ -7,7 +7,7 @@
     <!-- Etiqueta VIEWPORT -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Titulo que aparecera en el navegador -->
-    <title>Mundo Mascota DH</title>
+    <title>Mundo Mascota DH - Mascotas</title>
 
     <!-- Aqui iran los link para GOOGLE Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,12 +23,18 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/mascotas.css">
     
+    <script src="https://kit.fontawesome.com/1e24a630c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
 </head>
 
 <!--------------------- BODY ----------------->
 <body>
-     <!--------------------- HEADER ----------------->
-    <header>
+     
+    <!-- <header>
         <div class="main-header">
             <img src="/img/logo.jpg" alt="logo mundo mascota DH" class="logo">
             <input id="busqueda" type="text" placeholder="Buscar alimentos, masrcas, mascotas...">
@@ -55,8 +61,8 @@
     <i class="fas fa-bars menu"></i>
     </div>
 
-    </header>
-
+    </header> -->
+    <%- include('./partials/header')  %> 
     <main>
         <h2>Seccion Mascotas</h2>
         <p>Elegi los mejores productos para ellos...</p>
@@ -91,7 +97,7 @@
 
     </main>
 
-    <footer>
+    <!-- <footer>
         <div class="footer-section">
             <section class="pie">
                 <img src="/img/logo.jpg" alt="logo mundo mascota DH" class="logo-footer">
@@ -120,7 +126,8 @@
             
         </section>
 
-    </footer>
+    </footer> -->
+    <%- include ('./partials/footer.ejs') %>
 </body>
 
 </html>

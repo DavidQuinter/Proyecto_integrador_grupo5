@@ -16,10 +16,16 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/Sucursales.css">
 
+    <script src="https://kit.fontawesome.com/1e24a630c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <div class="main-header">
             <img src="/img/logo.jpg" alt="logo mundo mascota DH" class="logo">
             <input id="busqueda" type="text" placeholder="Buscar alimentos, masrcas, mascotas...">
@@ -35,7 +41,8 @@
                 <ul class="nav-bar">
                     <li><a href="#">Mascotas</a> <i class="fas fa-paw iconito"></i></li>
                     <li><a href="/marcas">Marcas</a> <i class="fas fa-tags iconito"> </i></li>
-                    <li><a href="/sucursales">Sucursales</a> <i class="fa-solid fa-location-dot ubicacion iconito"></i></li>
+                    <li><a href="/sucursales">Sucursales</a> <i class="fa-solid fa-location-dot ubicacion iconito"></i>
+                    </li>
                     <li><a href="/promociones">Promociones</a><i class="fas fa-badge-dollar iconito"></i></li>
                     <li><a href="/login">Ingresa</a> <i class="fas fa-user iconito"></i> </li>
                 </ul>
@@ -45,116 +52,58 @@
         <div class="burger-menu">
             <i class="fas fa-bars menu"></i>
         </div>
-    </header>
-
+    </header> -->
+    <%- include('./partials/header')  %> 
     <main>
-        <main>
+        <p>
+            Estoy en sucursales
+        </p>
 
-            <h1>Nuestras Sucursales</h1>
 
-            <h2>Datos de contacto</h2>
 
-            <!-- Sucursal Buenos Aires -->
-            <section>
 
-                <h2>Sucursal Buenos Aires</h2>
-                <i class="fa-solid fa-house icono"></i>
-                <p> 01144522298</p>
-                <p> 91167852177</p>
-                <p>info@mundomascota-dh.com.ar</p>
-                <p>Capital Federal: Av. San Martin 5000 - Buenos Aires - Argentina</p>
-                <p>Lunes a Sabado de 9 a 21 hs</p>
 
+
+
+
+
+
+
+
+
+
+    </main>
+    <%- include ('./partials/footer.ejs') %> 
+    <!-- <footer>
+        <div class="footer-section">
+            <section class="pie">
+                <img src="/img/logo.jpg" alt="logo mundo mascota DH" class="logo-footer">
             </section>
-
-            <!-- Sucursal Tucuman -->
-            <section>
-
-                <h2>Sucursal Tucuman</h2>
-                <i class="fa-solid fa-house icono"></i>
-                <p> 01147530279</p>
-                <p> 91155729935</p>
-                <p>info@petplanetshop.com.ar</p>
-                <p>Av. Aconquija 600 - Tucuman - Argentina</p>
-                <p>Lunes a Sabado de 9 a 21 hs</p>
-
+            <section class="pie">
+                <i class="fa-solid fa-credit-card icono"></i>
+                <p class="titulo">Pagá con tarjeta o en efectivo</p>
+                <p class="subtitulo">con VISA o MASTERCARD, tenés cuotas sin interés con tarjeta o efectivo en
+                    puntos de pago. ¡Y siempre es seguro!</p>
             </section>
-
-            <!-- Sucursal Mexico -->
-            <section>
-
-                <h2>Sucursal Mexico</h2>
-                <i class="fa-solid fa-house icono"></i>
-                <p>01148446392 </p>
-                <p>91123411408</p>
-                <p>info@mundomascota-dh.com.ar</p>
-                <p>Av. Cuauhtémoc Blanco 890 - Queretaro - Mexico</p>
-                <p>Horarios: Lunes a Sabado de 9 a 21 hs</p>
-
+            <section class="pie">
+                <i class="fa-solid fa-gift icono"></i>
+                <p class="titulo">Envío gratis desde $ 1.000</p>
+                <p class="subtitulo">Solo por estar registrad@ en MUNDO MASCOTA DH tenés envíos gratis en miles de
+                    productos. Es un beneficio de Mercado Puntos.</p>
             </section>
-
-            <h1>Raliza tus consultas</h1>
-
-            <p>Completá el siguiente formulario con tus datos y tu consulta o sugerencia para que podamos ponernos en
-                contacto con vos. Te responderemos lo más pronto posible.</P>
-
-            <!-- FORMULARIO PARA CONSULTAS -->
-
-            <form action="/login" method="post">
-
-                <div>
-                    <label for="nombre-usuario"></label>
-                    <input type="text" id="nombre-usuario" name="nombre-usuario" class="input"
-                        placeholder="Nombre y apellido">
-                </div>
-
-                <div>
-                    <label for="mail"></label>
-                    <input type="text" id="mail" name="mail" class="input" placeholder="E-mail">
-                </div>
-
-                <div>
-                    <label></label>
-                    <textarea type="consulta" id="consulta" placeholder="consulta"
-                        style="height:65px; width: 25%"></textarea>
-
-                </div>
-                <button type="submit" class="enviar-login">Enviar</button>
-
-            </form>
-
-        </main>
-
-        <footer>
-            <div class="footer-section">
-                <section class="pie">
-                    <img src="/img/logo.jpg" alt="logo mundo mascota DH" class="logo-footer">
-                </section>
-                <section class="pie">
-                    <i class="fa-solid fa-credit-card icono"></i>
-                    <p class="titulo">Pagá con tarjeta o en efectivo</p>
-                    <p class="subtitulo">con VISA o MASTERCARD, tenés cuotas sin interés con tarjeta o efectivo en
-                        puntos de pago. ¡Y siempre es seguro!</p>
-                </section>
-                <section class="pie">
-                    <i class="fa-solid fa-gift icono"></i>
-                    <p class="titulo">Envío gratis desde $ 1.000</p>
-                    <p class="subtitulo">Solo por estar registrad@ en MUNDO MASCOTA DH tenés envíos gratis en miles de
-                        productos. Es un beneficio de Mercado Puntos.</p>
-                </section>
-                <section class="pie">
-                    <i class="fa-solid fa-user-shield icono"></i>
-                    <p class="titulo">Seguridad, de principio a fin</p>
-                    <p class="subtitulo">¿No te gusta? ¡Devolvelo! En MUNDO MASCOTA DH, no hay nada que no puedas hacer,
-                        porque estás siempre protegid@.</p>
-                </section>
-            </div>
-            <section class="copyrigth">
-                <p>Copyright © 1999-2022 MUNDO MASCOTA DH</p>
-
+            <section class="pie">
+                <i class="fa-solid fa-user-shield icono"></i>
+                <p class="titulo">Seguridad, de principio a fin</p>
+                <p class="subtitulo">¿No te gusta? ¡Devolvelo! En MUNDO MASCOTA DH, no hay nada que no puedas hacer,
+                    porque estás siempre protegid@.</p>
             </section>
+        </div>
+        <section class="copyrigth">
+            <p>Copyright © 1999-2022 MUNDO MASCOTA DH</p>
 
-        </footer>
+        </section>
+
+    </footer> -->
 </body>
 
 </html>
