@@ -55,24 +55,87 @@
     </header> -->
     <%- include('./partials/header')  %> 
     <main>
-        <p>
-            Estoy en sucursales
-        </p>
+        <main>
+            
+                <h1>Nuestras Sucursales</h1>
+    
+                <h2>Datos de contacto</h2>
+                <!-- Sucursal Buenos Aires -->
+                
+                    <section>
+                        
+                            <h2>Sucursal Buenos Aires</h2>
+                            <i class="fa-solid fa-house icono" ></i>
+                            <p> 01144522298</p>
+                            <p> 91167852177</p>
+                            <p>info@mundomascota-dh.com.ar</p>
+                            <p>Capital Federal: Av. San Martin 5000 - Buenos Aires - Argentina</p>
+                            <p>Lunes a Sabado de 9 a 21 hs</p>
+                        
+                    </section>
+                
+                <!-- Sucursal Tucuman -->
+                
+                    <section>
+                        
+                            <h2>Sucursal Tucuman</h2>
+                            <i class="fa-solid fa-house icono" ></i>
+                            <p> 01147530279</p>
+                            <p> 91155729935</p>
+                            <p>info@petplanetshop.com.ar</p>
+                            <p>Av. Aconquija 600 - Tucuman - Argentina</p>
+                            <p>Lunes a Sabado de 9 a 21 hs</p>
+                        
+                            </section>
+                
+                <!-- Sucursal Mexico -->
+               
+                
+                    <section>
+                        
+                            <h2>Sucursal Mexico</h2>
+                            <i class="fa-solid fa-house icono" ></i>
+                            <p>01148446392 </p>
+                            <p>91123411408</p>
+                            <p>info@mundomascota-dh.com.ar</p>
+                            <p>Av. Cuauhtémoc Blanco 890 - Queretaro - Mexico</p>
+                            <p>Horarios: Lunes a Sabado de 9 a 21 hs</p>
+                        
+                    </section>
+                
+            
+               
+                <h1>Raliza tus consultas</h1>
 
+                <p>
+                    Completá el siguiente formulario con tus datos y tu consulta o sugerencia para que podamos ponernos en contacto con vos. Te responderemos lo más pronto posible.</P>
+        
+        <!-- FORMULARIO PARA CONSULTAS -->
 
+        <form action="/login" method="post">
 
+            <div>
+                <label for="nombre-usuario"></label>
+                <input type="text" id="nombre-usuario" name="nombre-usuario" class="input"
+                    placeholder="Nombre y apellido">
+            </div>
 
+            <div>
+                <label for="mail"></label>
+                <input type="text" id="mail" name="mail" class="input" placeholder="E-mail">
+            </div>
 
+            <div>
+                <label></label>
+                    <textarea type="consulta" id="consulta" placeholder="consulta" style="height:65px; width: 25%" ></textarea>
+                
+            </div>
+            <button type="submit" class="enviar-login">Enviar</button>
 
+        </form>
+    
+        </main>
 
-
-
-
-
-
-
-
-    </main>
     <%- include ('./partials/footer.ejs') %> 
     <!-- <footer>
         <div class="footer-section">
