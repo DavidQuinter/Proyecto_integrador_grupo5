@@ -1,36 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<%- include('./partials/head') %>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Etiqueta VIEWPORT -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Titulo que aparecera en el navegador -->
-    <title>Mundo Mascota DH</title>
-    <!-- Aqui iran los link para GOOGLE Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <!-- Aqui ira el link para los iconos -->
-    <!---<script src="https://kit.fontawesome.com/18dc98f3b0.js" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/1e24a630c6.js" crossorigin="anonymous"></script> Aqui iran los link para Mi CSS -->
-    <link href="css/index.css" rel="stylesheet">
-    <!-- <link href="css/footer.css" rel="stylesheet"> -->
-    <!-- <link href="stylesheet" media="(max-width: 780px)" href="css/index.css"> -->
-    <!-- <link rel="stylesheet" href="/css/styles.css"> -->
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/1e24a630c6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-  
-</head>
-<body>
-<!--     <nav>
+    <body>
+        <!--     <nav>
         <div class="contenedor-nav">
             <div class="contenedor-logo">
                 <img class="logo" src="/img/Logo.jpg"> 
@@ -66,11 +39,46 @@
         </div>
     </nav> 
      -->
-     <%- include('./partials/header')  %> 
-    <main>
-        <br/>
-        <div class="container-slider">
-            <div class="slider" id="slider">
+        <%- include('./partials/header') %>
+            <main>
+                <br />
+                <div class="container-slider">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="/img/promocional.PNG" alt="promocional" class="image-carousel"
+                                    style="height:400px;">
+                            </div>
+
+                            <div class="item">
+                                <img src="/img/slider2.jpg" alt="promocional">
+                            </div>
+
+                            <div class="item">
+                                <img src="/img/slider4.jpg" alt="promocional">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+                    <!-- <div class="slider" id="slider">
 
                 <div class="slider__section">
                     <img src="/img/promocional.PNG" alt="" class="slider__img">
@@ -86,61 +94,61 @@
                 </div>
             </div>
             <div class="slider__btn slider__btn--right" id="btn-right">&#62</div>
-            <div class="slider__btn slider__btn--left" id="btn-left">&#60</div>
-        </div>
+            <div class="slider__btn slider__btn--left" id="btn-left">&#60</div> -->
+                </div>
 
-        <div class="contenedor--iconos--envio">
-            <div class="mini-caja" style="flex: 1; text-align: center;">
-            <ion-icon name="cube-outline" class="uno tamaño"></ion-icon>
-            <p class="texto-envios">Entrega inmediata</p>
-            </div>
-            <div class="mini-caja" style="flex: 1; text-align: center;">
-            <ion-icon name="car-outline" class="dos tamaño"></ion-icon>
-            <p class="texto-envios">Envío rapido</p>
-            </div>
-            <div class="mini-caja" style="flex: 1; text-align: center;">
-            <ion-icon name="cube-outline" class="tres tamaño"></ion-icon>
-            <p class="texto-envios">Retiro en sucursal</p>
-            </div>
-        </div>
-        <div class="contenedor-producto">
-            <div class="vista--producto">
-                <img src="/img/croquetas.webp" alt="" class="img-p">
-                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <div class="mini--contenedor--dos">
-                    <p class="precio">50.00$</p>
-                    <button class="boton--buy--home">buy</button>
+                <div class="contenedor--iconos--envio">
+                    <div class="mini-caja" style="flex: 1; text-align: center;">
+                        <ion-icon name="cube-outline" class="uno tamaño"></ion-icon>
+                        <p class="texto-envios">Entrega inmediata</p>
+                    </div>
+                    <div class="mini-caja" style="flex: 1; text-align: center;">
+                        <ion-icon name="car-outline" class="dos tamaño"></ion-icon>
+                        <p class="texto-envios">Envío rapido</p>
+                    </div>
+                    <div class="mini-caja" style="flex: 1; text-align: center;">
+                        <ion-icon name="cube-outline" class="tres tamaño"></ion-icon>
+                        <p class="texto-envios">Retiro en sucursal</p>
+                    </div>
                 </div>
-            </div>
-            <div class="vista--producto">
-                <img src="/img/croquetas.webp" alt="" class="img-p">
-                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <div class="mini--contenedor--dos">
-                    <p class="precio">50.00$</p>
-                    <button class="boton--buy--home">buy</button>
+                <div class="contenedor-producto">
+                    <div class="vista--producto">
+                        <img src="/img/croquetas.webp" alt="" class="img-p">
+                        <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="mini--contenedor--dos">
+                            <p class="precio">50.00$</p>
+                            <button class="boton--buy--home">buy</button>
+                        </div>
+                    </div>
+                    <div class="vista--producto">
+                        <img src="/img/croquetas.webp" alt="" class="img-p">
+                        <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="mini--contenedor--dos">
+                            <p class="precio">50.00$</p>
+                            <button class="boton--buy--home">buy</button>
+                        </div>
+                    </div>
+                    <div class="vista--producto">
+                        <img src="/img/croquetas.webp" alt="" class="img-p">
+                        <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="mini--contenedor--dos">
+                            <p class="precio">50.00$</p>
+                            <button class="boton--buy--home">buy</button>
+                        </div>
+                    </div>
+                    <div class="vista--producto">
+                        <img src="/img/croquetas.webp" alt="" class="img-p">
+                        <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="mini--contenedor--dos">
+                            <p class="precio">50.00$</p>
+                            <button class="boton--buy--home">buy</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="vista--producto">
-                <img src="/img/croquetas.webp" alt="" class="img-p">
-                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <div class="mini--contenedor--dos">
-                    <p class="precio">50.00$</p>
-                    <button class="boton--buy--home">buy</button>
-                </div>
-            </div>
-            <div class="vista--producto">
-                <img src="/img/croquetas.webp" alt="" class="img-p">
-                <p class="descripcion--corta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <div class="mini--contenedor--dos">
-                    <p class="precio">50.00$</p>
-                    <button class="boton--buy--home">buy</button>
-                </div>
-            </div>
-        </div>
-    </main>
-    <br/>
-<!-- ---------------------------------- FOOTER -------------------------------------------- -->
-<!-- 
+            </main>
+            <br />
+            <!-- ---------------------------------- FOOTER -------------------------------------------- -->
+            <!-- 
     <footer>
         <div class="footer-section">
             <section class="pie">
@@ -172,10 +180,11 @@
 
     </footer> -->
 
-     <%- include ('./partials/footer.ejs') %> 
-    <script type="text/javascript" src="javascript/slider.js"></script>
-</body>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <%- include ('./partials/footer.ejs') %>
+                <script type="text/javascript" src="javascript/slider.js"></script>
+    </body>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </html>

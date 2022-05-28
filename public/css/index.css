@@ -2,6 +2,7 @@
 @import url(header.css);
 @import url(footer.css);
 @import url(carrito.css);
+
 :root{
     --azul1:#05668D;
     --azul2: #427AA1;
@@ -131,7 +132,15 @@ button.icono-boton{
     -webkit-box-shadow: 3px 4px 9px -1px rgba(156,154,154,0.93);
     -moz-box-shadow: 3px 4px 9px -1px rgba(156,154,154,0.93);
     border-radius: 1rem;
+    height: 400px;
 }
+.image-carousel 
+{
+    width:100%; 
+    height:400px;
+    
+}
+
 .slider{
     display: flex;
     width: 400%;

@@ -7,7 +7,8 @@ Acid Green: #A5BE00
 */
 
 /* iMPORTAMOS  */
-@import url(normalize.css); /* PREGUNTAR SI VAMOS A USAR NORMALIZE */
+@import url(normalize.css); /* PREGUNTAR SI VAMOS A USAR NORMALIZE */ 
+@import url(index.css);
 @import url(header.css);
 @import url(footer.css);
 @import url(carrito.css);
@@ -76,3 +77,42 @@ p {
   outline: none;
 }
 
+/* marcas */
+.marcas{
+  width: 500px;
+  margin-left: 250px;
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+
+/* register */
+.contenedor-botones 
+{
+    width: 100%; 
+    display: flex; 
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+
+.boton-register
+{
+    font-size: 14px; 
+    width: 200px; 
+   
+}
+
+#btnCrearCuenta 
+{
+    background-color: #A5BE00;
+}
+
+/* promociones */
+.promo-pedidos{
+  width: 400px;
+  margin-left: 250px;
+  margin-top: 25px;
+  border-radius: 10px;
+  
+}
