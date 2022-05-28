@@ -5,12 +5,6 @@ const seguridadController =
     {
         res.render('login');        
     },
-
-    recuperar: (req, res) => 
-    {
-        res.render('recuperar');        
-    },
-    
     register: (req, res) => 
     {
         res.render('register');        
