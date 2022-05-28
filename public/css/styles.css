@@ -84,6 +84,8 @@ p {
   margin-top: 25px;
   border-radius: 10px;
   margin-bottom: 25px;
+  justify-content: center;
+  text-align: center;
 }
 
 

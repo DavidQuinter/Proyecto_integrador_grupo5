@@ -1,3 +1,7 @@
+main{
+    text-align: center;
+    justify-content: center;
+}
 .section-producto {
     display: flex;
     flex-wrap: wrap;
@@ -8,21 +12,25 @@
     width: 20%;
     margin-right: 20px;
     margin-left: 20px;
+    text-align: center;
+    justify-content: center;
 }
 .perro{
     width: 50%;
-    text-align: left;
+    text-align: center;
     justify-content: center;
 }
 .gato{
     width: 50%;
-    text-align: right;
+    text-align: center;
     justify-content: center;  
 }
 .logo-gato{
     width: 20%;
     margin-right: 20px;
     margin-left: 20px;
+    text-align: center;
+    justify-content: center;
 }
 .logo-perro {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);

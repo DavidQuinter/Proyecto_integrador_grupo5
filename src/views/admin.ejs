@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('./partials/head') %>
+
+<body>
+    <!--------------------- body ----------------->
+    <%- include('./partials/header')  %>
+
+    <!-------------------- MAIN --------------------->
+    
+        <main class="main">
+
+            <h1> Ingresar producto nuevo </h1>
+            <i class="far fa-dog"></i>
+            <i class="far fa-cat"></i>
+            <form action="/admin" method="post">
+                <!-- Agregar el nombre del producto -->
+                <div>
+                    <label for="nombre">Nombre del Producto:</label>
+                    <input type="text" id="nombre" name="nombre" class="input" required>
+                </div>
+                <!-- Agregar una descripcion del producto -->
+                <div>
+                    <label> </label>
+                        <textarea type="consulta" id="consulta" placeholder="descripcion" style="height:65px; width: 25%" ></textarea>
+                </div>
+                <!-- Agregar imagen del producto -->
+                <div cla>
+                    <label for="foto">
+                        <h4>Foto del del producto</h4>
+                    </label>
+                    <input type="file" name="foto" id="foto" class="input">
+                </div>
+
+                <!-- Agregar color/talle del producto -->
+                <div>
+                    <label for="nombre">Colores:</label>
+                    <input type="text" id="nombre" name="nombre" class="input" required>
+                </div>
+
+                <!-- Agregar el precio del producto -->
+                <div>
+                    <label for="nombre">Precio:</label>
+                    <input type="text" id="nombre" name="nombre" class="input" required>
+                </div>
+    
+                <div class="boton">
+                    <button type="submit" class="enviar"> <i class="far fa-check-circle"></i> Agregar producto</button>
+                    <button type="reset" class="borrar"> <i class="fas fa-trash-alt"></i> Eliminar producto </button>
+                </div>
+            </form>
+    
+    
+        </main>
+    
+
+    <%- include ('./partials/footer.ejs') %>
+</body>
+
+</html>
