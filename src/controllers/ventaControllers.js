@@ -12,7 +12,7 @@ const ventaController =
     },
     promociones: (req, res) => 
     {
-        res.render('promociones');        
+        res.render('promociones',{titulo:'Mundo Mascota DH-Promociones'});        
     },
     productCart: (req, res) => 
     {
