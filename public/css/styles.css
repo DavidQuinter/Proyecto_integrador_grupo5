@@ -13,6 +13,8 @@ Acid Green: #A5BE00
 @import url(footer.css);
 @import url(carrito.css);
 @import url(admin.css);
+@import url(sucursales.css);
+
 
 :root {
   --azul_zafiro: #05668d;
@@ -40,10 +42,9 @@ form {
   margin-top: 30px;
 }
 
-
 h1 {
   color: var(--azul_zafiro);
-  font-size: 22px;
+  font-size: 30px;
   text-align: center;
   padding-top: 30px;
 }
@@ -58,7 +59,6 @@ h3 {
 
 p {
   text-align: justify;
-
   margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;
@@ -78,7 +78,8 @@ p {
   outline: none;
 }
 
-/* marcas */
+/* Marcas */
+
 .marcas{
   width: 500px;
   margin-left: 250px;
@@ -90,7 +91,8 @@ p {
 }
 
 
-/* register */
+/* Register */
+
 .contenedor-botones 
 {
     width: 100%; 
@@ -111,7 +113,8 @@ p {
     background-color: #A5BE00;
 }
 
-/* promociones */
+/* Promociones */
+
 .promo-pedidos{
   width: 400px;
   margin-left: 250px;
@@ -119,6 +122,7 @@ p {
   border-radius: 10px;
   
 }
+
 /* FORMULARIO ADMINISTRADOR */
 
 form {
@@ -187,7 +191,7 @@ form label{
   padding: 30px;
   margin: 20px; 
 
-}
+} 
 .carga-descripcion{
   height:65px; 
   width: 40%
@@ -195,4 +199,14 @@ form label{
 .select-img{
   text-align: center;
   justify-content: center;
+}
+/* SUCURSALES */
+.consulta{
+  height:50px; 
+  width: 50%;
+  background-color: #679436;
+  color: white;
+}
+.sucursales{
+  text-align: center;
 }

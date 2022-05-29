@@ -30,20 +30,20 @@
     
         <main>
             
-                <h1>Nuestras Sucursales</h1>
+                <h1>  Nuestras Sucursales</h1>
     
                 <h2>Datos de contacto</h2>
                 <!-- Sucursal Buenos Aires -->
                 
                     <section>
                         
-                            <h2>Sucursal Buenos Aires</h2>
-                            <i class="fa-solid fa-house icono" ></i>
-                            <p> 01144522298</p>
-                            <p> 91167852177</p>
-                            <p>info@mundomascota-dh.com.ar</p>
-                            <p>Capital Federal: Av. San Martin 5000 - Buenos Aires - Argentina</p>
-                            <p>Lunes a Sabado de 9 a 21 hs</p>
+                            <h2> Sucursal Buenos Aires</h2>
+                            
+                            <p> <i class="fa-solid fa-phone icono"></i> 0810 -123 -4567 </p>
+                            <p> <i class="fas fa-mobile-alt icono"></i> 91167852177</p>
+                            <p> <i class="fas fa-at icono"></i> info@mundomascota-dh.com.ar</p>
+                            <p> <i class="fa-solid fa-house icono" ></i> Av. San Martin 5000 - Cap Fed - Argentina</p>
+                            <p> <i class="fas fa-clock icono"></i> Lunes a Sabado de 9 a 21 hs</p>
                         
                     </section>
                 
@@ -52,12 +52,12 @@
                     <section>
                         
                             <h2>Sucursal Tucuman</h2>
-                            <i class="fa-solid fa-house icono" ></i>
-                            <p> 01147530279</p>
-                            <p> 91155729935</p>
-                            <p>info@petplanetshop.com.ar</p>
-                            <p>Av. Aconquija 600 - Tucuman - Argentina</p>
-                            <p>Lunes a Sabado de 9 a 21 hs</p>
+                            
+                            <p> <i class="fa-solid fa-phone icono"></i> 0810 -123 -4567 </p>
+                            <p> <i class="fas fa-mobile-alt icono"></i> 91155729935</p>
+                            <p> <i class="fas fa-at icono"></i> info@petplanetshop.com.ar</p>
+                            <p> <i class="fa-solid fa-house icono" ></i> Av. Aconquija 600 - Tucuman - Argentina</p>
+                            <p> <i class="fas fa-clock icono"></i> Lunes a Sabado de 9 a 21 hs</p>
                         
                             </section>
                 
@@ -67,18 +67,18 @@
                     <section>
                         
                             <h2>Sucursal Mexico</h2>
-                            <i class="fa-solid fa-house icono" ></i>
-                            <p>01148446392 </p>
-                            <p>91123411408</p>
-                            <p>info@mundomascota-dh.com.ar</p>
-                            <p>Av. Cuauhtémoc Blanco 890 - Queretaro - Mexico</p>
-                            <p>Horarios: Lunes a Sabado de 9 a 21 hs</p>
+                            
+                            <p> <i class="fa-solid fa-phone icono"></i> 0810 -123 -4567 </p>
+                            <p> <i class="fas fa-mobile-alt icono"></i> 91123411408</p>
+                            <p> <i class="fas fa-at icono"></i> info@mundomascota-dh.com.ar</p>
+                            <p> <i class="fa-solid fa-house icono" ></i> Av. Cuauhtémoc Blanco 890 - Queretaro - Mexico</p>
+                            <p> <i class="fas fa-clock icono"></i> Horarios: Lunes a Sabado de 9 a 21 hs</p>
                         
                     </section>
                 
-            
+                
                
-                <h1>Raliza tus consultas</h1>
+                <h2>Raliza tus consultas</h2>
 
                 <p>
                     Completá el siguiente formulario con tus datos y tu consulta o sugerencia para que podamos ponernos en contacto con vos. Te responderemos lo más pronto posible.</P>
@@ -87,23 +87,31 @@
 
         <form action="/login" method="post">
 
+            <!-- NOMBRE Y APELLIDO -->
             <div>
-                <label for="nombre-usuario"></label>
-                <input type="text" id="nombre-usuario" name="nombre-usuario" class="input"
-                    placeholder="Nombre y apellido">
+                <label for="nombre"> Nombre y Apellido: </label>
+                <input type="text" id="nombre" name="nombre" class="input" required>
             </div>
 
             <div>
-                <label for="mail"></label>
-                <input type="text" id="mail" name="mail" class="input" placeholder="E-mail">
+                <label for="mail"> Email: </label>
+                <input type="text" id="mail" name="mail" class="input" required>
             </div>
 
-            <div>
+            <!-- CONSULTA -->
+            
+             <div>
                 <label></label>
-                    <textarea type="consulta" id="consulta" placeholder="consulta" style="height:65px; width: 25%" ></textarea>
+                <textarea type="consulta" id="consulta" placeholder="Consulta"
+                    class="carga-descripcion"></textarea>
+            </div>
+
+            <!-- Botones ENVIAR -->
+            <div class="boton">
+                <button type="submit" class="consulta"> <i class="far fa-check-circle"></i> 
+                    Enviar</button>
                 
             </div>
-            <button type="submit" class="enviar-login">Enviar</button>
 
         </form>
     
