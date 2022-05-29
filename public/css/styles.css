@@ -207,6 +207,7 @@ form label{
   background-color: #679436;
   color: white;
 }
-.sucursales{
-  text-align: center;
+.consulta-cliente{
+  height:90px; 
+  width: 90%;
 }
