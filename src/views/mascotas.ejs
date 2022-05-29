@@ -33,36 +33,10 @@
 
 <!--------------------- BODY ----------------->
 <body>
-     
-    <!-- <header>
-        <div class="main-header">
-            <img src="/img/logo.jpg" alt="logo mundo mascota DH" class="logo">
-            <input id="busqueda" type="text" placeholder="Buscar alimentos, masrcas, mascotas...">
-
-            <div class="icono-header">
-                <a href="/carrito"><i class="fa-solid fa-cart-shopping carrito"></i></a>
-                
-            </div>
-    </div>
-
-    <div >
-        <nav >
-            <ul class="nav-bar">
-                <li><a href="/mascotas">Mascotas</a> <i class="fas fa-paw iconito"></i></li>
-                <li><a href="/marcas">Marcas</a> <i class="fas fa-tags iconito"> </i></li>
-                <li><a href="/sucursales">Sucursales</a> <i  class="fa-solid fa-location-dot ubicacion iconito"></i> </li>
-                <li><a href="/promociones">Promociones</a><i class="fas fa-badge-dollar iconito"></i></li>
-                <li><a href="/login">Ingresa</a> <i class="fas fa-user iconito"></i> </li>
-            </ul>
-        </nav>
-    </div>
-    
-    <div class="burger-menu">
-    <i class="fas fa-bars menu"></i>
-    </div>
-
-    </header> -->
+     <!--------------------- HEADER ----------------->
     <%- include('./partials/header')  %> 
+
+    <!--------------------- MAIN ----------------->
     <main class="main">
         
         <img src="/img/Banner5.jpg" alt="banner5" >
@@ -80,12 +54,10 @@
 
             <div class="detalle-Producto">
 
-                <div class="precio-descuento">
-                    <p id="precios"></p>
-                    <p id="descuentos">PERROS</p>
-
+                <div >
+                    <p class="p-mascota">¡Los favoritos para el concentido de la casa! </p>
                 </div>
-
+            </div>
 
         </section>
 
@@ -94,47 +66,18 @@
             
             <div class="detalle-Producto">
 
-                <div class="precio-descuento">
-                    <p id="precios"></p>
-                    <p id="descuentos">GATOS</p>
-
+                <div >
+                    <p class="p-mascota">
+                    Los productos que haran feliz a tu gato, encontralos aqui...
+                    </p>
                 </div>
-
+            </div>
 
         </section>
 
     </main>
-
-    <!-- <footer>
-        <div class="footer-section">
-            <section class="pie">
-                <img src="/img/logo.jpg" alt="logo mundo mascota DH" class="logo-footer">
-            </section>
-            <section class="pie">
-                <i class="fa-solid fa-credit-card icono"></i>
-                <p class="titulo">Pagá con tarjeta o en efectivo</p>
-                <p class="subtitulo">con VISA o MASTERCARD, tenés cuotas sin interés con tarjeta o efectivo en
-                    puntos de pago. ¡Y siempre es seguro!</p>
-            </section>
-            <section class="pie">
-                <i class="fa-solid fa-gift icono"></i>
-                <p class="titulo">Envío gratis desde $ 1.000</p>
-                <p class="subtitulo">Solo por estar registrad@ en MUNDO MASCOTA DH tenés envíos gratis en miles de
-                    productos. Es un beneficio de Mercado Puntos.</p>
-            </section>
-            <section class="pie">
-                <i class="fa-solid fa-user-shield icono"></i>
-                <p class="titulo">Seguridad, de principio a fin</p>
-                <p class="subtitulo">¿No te gusta? ¡Devolvelo! En MUNDO MASCOTA DH, no hay nada que no puedas hacer,
-                    porque estás siempre protegid@.</p>
-            </section>
-        </div>
-        <section class="copyrigth">
-            <p>Copyright © 1999-2022 MUNDO MASCOTA DH</p>
-            
-        </section>
-
-    </footer> -->
+    <!--------------------- FOOTER ----------------->
+    
     <%- include ('./partials/footer.ejs') %>
 </body>
 
