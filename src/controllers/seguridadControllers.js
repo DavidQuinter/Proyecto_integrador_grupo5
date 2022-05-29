@@ -3,7 +3,7 @@ const seguridadController =
 {
     login: (req, res) => 
     {
-        res.render('login');        
+        res.render('login',{titulo:'Mundo Mascota DH-Login'});        
     },
     register: (req, res) => 
     {
@@ -11,7 +11,7 @@ const seguridadController =
     },
     admin: (req, res) => 
     {
-        res.render('admin');        
+        res.render('admin',{titulo:'Mundo Mascota DH-ABM Producto'});        
     }
                 
 }

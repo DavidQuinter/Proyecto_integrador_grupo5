@@ -3,12 +3,12 @@ const ventaController =
 {
     index: (req, res) => 
     {
-        res.render('mascotas');        
+        res.render('mascotas',{titulo:'Mundo Mascota DH-Productos'});        
     },
 
     marcas: (req, res) => 
     {
-        res.render('marcas');        
+        res.render('marcas',{titulo:'Mundo Mascota DH-Marcas'});        
     },
     promociones: (req, res) => 
     {
@@ -16,19 +16,19 @@ const ventaController =
     },
     productCart: (req, res) => 
     {
-        res.render('productCart');        
+        res.render('productCart',{titulo:'Mundo Mascota DH-Carrito'});        
     },
     productDetail: (req, res) => 
     {
-        res.render('productDetail');        
+        res.render('productDetail',{titulo:'Mundo Mascota DH-Detalle Producto'});        
     },
     sucursales: (req, res) => 
     {
-        res.render('sucursales');        
+        res.render('sucursales',{titulo:'Mundo Mascota DH-Sucursales'});        
     },
     mascotas: (req, res) => 
     {
-        res.render('mascotas');        
+        res.render('mascotas',{titulo:'Mundo Mascota DH-Productos'});        
     },
 }
 
