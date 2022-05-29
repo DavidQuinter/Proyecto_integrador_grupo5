@@ -12,6 +12,7 @@ Acid Green: #A5BE00
 @import url(header.css);
 @import url(footer.css);
 @import url(carrito.css);
+@import url(admin.css);
 
 :root {
   --azul_zafiro: #05668d;
@@ -117,4 +118,81 @@ p {
   margin-top: 25px;
   border-radius: 10px;
   
+}
+/* FORMULARIO ADMINISTRADOR */
+
+form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+form label{
+  text-align: center;
+  font-size: 20px;
+  margin: 0 0 10px;
+  border-radius: 5px;
+
+}
+.input {
+  font-size: 80%;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 40%;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+}
+
+.agregar-producto {
+  width: 20%;
+  padding: 15px 0px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: #05668d;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.agregar-producto:hover {
+  background-color:  lightskyblue;
+}
+
+.borrar {
+  width: 20%;
+  padding: 15px 0px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: #679436;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.borrar:hover {
+  background: #a5be00;
+
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin: 20px; 
+
+}
+.carga-descripcion{
+  height:65px; 
+  width: 40%
+}
+.select-img{
+  text-align: center;
+  justify-content: center;
 }

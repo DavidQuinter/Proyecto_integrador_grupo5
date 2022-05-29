@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <%- include('./partials/head') %>
+<!--------------------- HEAD ----------------->
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Etiqueta VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo que aparecera en el navegador -->
+    <title> Mundo Mascota DH - Admin </title>
+   
+    <!-- link para GOOGLE Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!--Fin link para GOOGLE Fonts -->
+    
+    <!-- links font awesone -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/1e24a630c6.js" crossorigin="anonymous"></script>
+    <!-- fin links font awesone -->
+    
+    <!-- links css personalizados -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <!--fin links css personalizados -->
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--links bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--fin links bootstrap-->
+</head>
+
+<!--------------------- BODY ----------------->
 <body>
-    <!--------------------- body ----------------->
+    <!--------------------- HEADER ----------------->
     <%- include('./partials/header')  %>
 
     <!-------------------- MAIN --------------------->
     
-        <main class="main">
-
-            <h1> Ingresar producto nuevo </h1>
-            <i class="far fa-dog"></i>
-            <i class="far fa-cat"></i>
+        <main >
+            
+            <h1>  Ingresar producto nuevo  </h1>
+            
+            
             <form action="/admin" method="post">
                 <!-- Agregar el nombre del producto -->
                 <div>
@@ -22,14 +57,20 @@
                 </div>
                 <!-- Agregar una descripcion del producto -->
                 <div>
-                    <label> </label>
-                        <textarea type="consulta" id="consulta" placeholder="descripcion" style="height:65px; width: 25%" ></textarea>
+                    <label> Descripcion: </label>
+                        <textarea type="consulta" id="consulta" placeholder="descripcion" class="carga-descripcion"></textarea>
                 </div>
+
+                <label for="nombre"> Categoria:</label>
+                <select class="select-img" >
+                    <option></option>
+                    <option>Perro</option>
+                    <option>Gato</option>
+                </select>
+
                 <!-- Agregar imagen del producto -->
-                <div cla>
-                    <label for="foto">
-                        <h4>Foto del del producto</h4>
-                    </label>
+                <div >
+                    <label for="nombre"> Foto del producto: </label>
                     <input type="file" name="foto" id="foto" class="input">
                 </div>
 
@@ -46,7 +87,7 @@
                 </div>
     
                 <div class="boton">
-                    <button type="submit" class="enviar"> <i class="far fa-check-circle"></i> Agregar producto</button>
+                    <button type="submit" class="agregar-producto"> <i class="far fa-check-circle"></i> Agregar producto</button>
                     <button type="reset" class="borrar"> <i class="fas fa-trash-alt"></i> Eliminar producto </button>
                 </div>
             </form>
