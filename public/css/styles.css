@@ -7,15 +7,13 @@ Acid Green: #A5BE00
 */
 
 /* iMPORTAMOS  */
-@import url(normalize.css); /* PREGUNTAR SI VAMOS A USAR NORMALIZE */ 
+@import url(normalize.css); /* PREGUNTAR SI VAMOS A USAR NORMALIZE */
 @import url(index.css);
 @import url(header.css);
 @import url(footer.css);
 @import url(carrito.css);
-@import url(admin.css);
+/* @import url(admin.css); */
 @import url(sucursales.css);
-
-
 
 :root {
   --azul_zafiro: #05668d;
@@ -23,7 +21,6 @@ Acid Green: #A5BE00
   --azul_clarito: #ebf2fa;
   --verde: #679436;
   --verde_acido: #a5be00;
-
 }
 
 * {
@@ -81,7 +78,7 @@ p {
 
 /* Marcas */
 
-.marcas{
+.marcas {
   width: 500px;
   margin-left: 250px;
   margin-top: 25px;
@@ -91,37 +88,60 @@ p {
   text-align: center;
 }
 
+/* Login-Register */
+.form-seguridad {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.contenedor-seguridad
+ {
+    width: 1200px;
+ } 
+ 
 
-/* Register */
-
-.contenedor-botones 
-{
-    width: 100%; 
-    display: flex; 
-    justify-content: space-evenly; 
-    flex-wrap: wrap;
+.contenedor-botones {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.boton-register
-{
-    font-size: 14px; 
-    width: 200px; 
-   
+.boton-seguridad {
+  font-size: 14px;
+  width: 180px;
+  /* display: flex; */
+  justify-content: center;
+  padding: 15px;
+  margin: 20px;
+  
 }
 
-#btnCrearCuenta 
-{
-    background-color: #A5BE00;
+.btn-success {
+  background-color: #a5be00;
 }
+
+
+.links-seguridad{
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  justify-content: center;
+}
+
+
 
 /* Promociones */
 
-.promo-pedidos{
+.promo-pedidos {
   width: 400px;
   margin-left: 250px;
   margin-top: 25px;
   border-radius: 10px;
-  
 }
 
 /* FORMULARIO ADMINISTRADOR */
@@ -133,12 +153,11 @@ form {
   border-radius: 5px;
 }
 
-form label{
+form label {
   text-align: center;
   font-size: 20px;
   margin: 0 0 10px;
   border-radius: 5px;
-
 }
 .input {
   font-size: 80%;
@@ -164,7 +183,7 @@ form label{
 }
 
 .agregar-producto:hover {
-  background-color:  lightskyblue;
+  background-color: lightskyblue;
 }
 
 .borrar {
@@ -181,38 +200,59 @@ form label{
   border: 1px solid;
 }
 
+button:hover
+{
+  background-color: #427aa1 !important;
+  color: white;
+}
+
 .borrar:hover {
   background: #a5be00;
-
 }
 
 .boton {
   display: flex;
   justify-content: center;
   padding: 30px;
-  margin: 20px; 
-
-} 
-.carga-descripcion{
-  height:65px; 
-  width: 40%
+  margin: 20px;
 }
-.select-img{
+.carga-descripcion {
+  height: 65px;
+  width: 40%;
+}
+.select-img {
   text-align: center;
   justify-content: center;
 }
 /* SUCURSALES */
-.consulta{
-  height:50px; 
+.consulta {
+  height: 50px;
   width: 50%;
   background-color: #679436;
   color: white;
 }
-.consulta-cliente{
-  height:90px; 
+.consulta-cliente {
+  height: 90px;
   width: 90%;
 }
-.sucursales{
+.sucursales {
   text-align: center;
-  
+}
+
+
+@media (min-width: 425px){
+
+}
+
+
+@media (min-width: 768px){
+
+}
+
+
+@media (min-width: 768px){
+.contenedor-seguridad
+{
+  width: 800px;
+}
 }
