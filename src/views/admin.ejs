@@ -14,7 +14,7 @@
 
         <main>
 
-            <h1> Ingresar producto nuevo </h1>
+            <h1> Alta - Baja - Modificacion de producto </h1>
 
             <form action="/admin" method="post">
 
@@ -57,11 +57,19 @@
                     <input type="text" id="nombre" name="nombre" class="input" required>
                 </div>
 
+                <!-- Producto ACTIVO - SI/NO -->
+                <label for="nombre"> Producto Activo:</label>
+                <select class="select-img">
+                    <option></option>
+                    <option>SI</option>
+                    <option>NO</option>
+                </select>
+
+
                 <!-- Botones para agregar y eliminar un producto -->
                 <div class="boton">
-                    <button type="submit" class="agregar-producto"> <i class="far fa-check-circle"></i> Agregar
-                        producto</button>
-                    <button type="reset" class="borrar"> <i class="fas fa-trash-alt"></i> Eliminar producto </button>
+                    <button type="submit" class="agregar-producto"> <i class="far fa-check-circle"></i> Guardar </button>
+                    <!-- <button type="reset" class="borrar"> <i class="fas fa-trash-alt"></i> Eliminar producto </button> -->
                 </div>
             </form>
 
