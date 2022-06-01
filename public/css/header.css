@@ -14,13 +14,50 @@
     margin: 0%;
 }
 
+.main-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#busqueda{
+    width: 140%;
+    height: 5vh;
+    border-radius: 10px;
+    padding-right: 20%;
+    padding: 0%;
+   
+}
+
+.logo-barra{
+    background-color: var(--Amarillo);
+    position: relative;
+}
+
+
+.lupa{
+    position: absolute;
+    right: 85px;
+    top: 37px;
+    color: #a29b9b;
+}
+
+::placeholder{
+    color: #a29b9b;
+}
 
 .logo{
-    width: 15vw;
-    margin-left: 1%;
-    margin-top: 3%;
+    width: 16vw;
+    margin-left: 40%;
+    margin-top: 10%;
     padding-top: 5px;
-    
+   margin-right: 0%;
+}
+
+form.search-form{
+    padding: 0%;
 }
 
 header{
@@ -34,7 +71,7 @@ header{
 }
 
 .iconito:hover {
-    color: var(--verde1);
+    color: var(--verde2);
   }
 
 .iconito:active{
@@ -43,17 +80,20 @@ header{
 
 
 .icono-header{
-    width: auto;
-    text-align: right;
-    font-size: 100%;
-    margin-right: 5vw;
+    width: 20%;
+    /* text-align: right; */
+    font-size: 120%;
+    margin-right: 4vw;
     
 }
 
 .carrito{
     transition: 1s;
     color: #ebebeb;
-    padding: 5px;
+    padding: 15px;
+    margin-top: 20%;
+    display: none;
+    margin-right: 0%;
 }
 
 
@@ -64,11 +104,7 @@ header{
 
 
 
-#busqueda{
-    width: 50%;
-    height: 5vh;
-    border-radius: 5px;
-}
+
 
 
 
@@ -94,13 +130,7 @@ ul li{
     padding-left: 20px;
 }
 
-.main-header{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    
-}
+
 
 .nav-bar{
     display: none;
@@ -109,15 +139,15 @@ ul li{
 .burger-menu{
     text-align: center;
     border: 1px solid #427AA1;
-    width: 40px;
-    font-size: 30px;
+    width: 30px;
+    font-size: 20px;
     border-radius: 5px;
     background-color: #427AA1;
     color: white;
     margin: auto;
     justify-content: center;
-    padding: 5px;
-    margin-top: 2%;
+    padding: 2px;
+    margin-top: 0%;
     margin-bottom: 20px;
 }
 
@@ -132,21 +162,35 @@ ul li{
 @media (min-width: 426px){
 
     .logo{
-        width: 8vw;
+        width: 10vw;
     }
 
     .nav-bar{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin-top: 2%;
+        margin-top: 1.5%;
         margin-left: 5%;
+    }
+
+    .carrito{
+        
+        padding: 25px;
+        display: inline-block
     }
 
     ul li{
         list-style-type: none;
         padding-left: 5px;
-        font-size: 70%;
+        font-size: 80%;
+        padding-top: 2%;
+    }
+
+    .lupa{
+        left: 300px;
+        /* right: 155px; */
+        top: 40px;
+        
     }
 
     .burger-menu{
@@ -166,7 +210,8 @@ ul li{
     }
     
     #busqueda{
-        width: 60%;
+        margin-left: -10%;
+        width: 150%;
         height: 6vh;
         border-radius: 5px;
     }
@@ -184,18 +229,31 @@ ul li{
 
 
 @media (min-width: 769px){
+
+    .logo{
+        width: 7vw;
+    }
+
     .nav-bar{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         margin-top: 10px;
-        padding-top: 1%;
+        padding-top: 2%;
+        margin-bottom: -1%;
+    }
+
+    .carrito{
+        
+        padding: 25px;
+        display: inline-block
     }
 
     ul li{
         list-style-type: none;
         margin-left: 0%;
         font-size: 100%;
+        margin-top: -2%;
     }
 
     .burger-menu{
@@ -211,12 +269,18 @@ ul li{
     }
         
     #busqueda{
-        width: 60%;
+        margin-left: -50%;
+        width: 250%;
         height: 6vh;
         border-radius: 5px;
     }
 
-    
+    .lupa{
+        left: 400px;
+        /* right: 155px; */
+        top: 40px;
+        
+    }
 
     .main-header{
         margin-bottom: -4%;

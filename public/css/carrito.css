@@ -43,6 +43,12 @@ th{
 	background-color: #EEE;
 }
 
+.tabla-cabecera{
+    text-align: center;
+    font-weight: bold;
+    font-size: 100%;
+}
+
 .img-tabla{
     width: 70%;
     height: 50%;
