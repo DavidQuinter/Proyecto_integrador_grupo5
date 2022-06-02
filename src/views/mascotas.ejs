@@ -10,26 +10,34 @@
 
             <!--------------------- MAIN ----------------->
             <main class="main">
-                <img src="/img/Banner5.jpg" alt="banner5" >
-                <h1>Busca todo lo que tu mascota necesita, en un solo lugar...</h1>
+                <!-- <img src="/img/Banner5.jpg" alt="banner5">
+                 -->
                 <!-- <h2>ALIMENTO BALANCEADO</h2> -->
 
                 <!-- <h3>Venta minorista y mayorista de alimentos balanceados de las mejores marcas del país y al mejor
                     precio. También contamos con una amplia variedad de accesorios.</h3> -->
 
                 <div class="container ">
+                    <div class="jumbotron">
+                        <h1>Busca todo lo que tu mascota necesita, en un solo lugar...</h1>
+                        <p>Venta minorista y mayorista de alimentos balanceados de las mejores marcas del país y al mejor
+                            precio. También contamos con una amplia variedad de accesorios.</p>
+                      </div>
                     <div class="rows">
-                        <a href="#"> <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <h2>Perr@s</h2>
-                            <img src="/img/mascota-perro.jpg" class="img-circle" alt="Cinque Terre" width="404"
-                                height="336">
-                        </div></a>
-                        <a href="#"><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <h2>Gat@s</h2>
-                            <img src="/img/mascota-gato.jpg" class="img-circle" alt="Cinque Terre" width="404"
-                                height="336">
-                        </div>
-                    </a>
+                        <a href="#">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <h2>Perr@s</h2>
+                                <img src="/img/mascota-perro.jpg" class="img-circle" alt="categoria_perro" width="404"
+                                    height="336">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <h2>Gat@s</h2>
+                                <img src="/img/mascota-gato.jpg" class="img-circle" alt="categoria_gato" width="404"
+                                    height="336">
+                            </div>
+                        </a>
                     </div>
                 </div>
 
@@ -61,9 +69,7 @@
 
             </main>
             <!--------------------- FOOTER ----------------->
-
+            <%- include ('./partials/footer.ejs') %>
 
     </body>
-    <%- include ('./partials/footer.ejs') %>
-
-</html>
+  </html>
