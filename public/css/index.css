@@ -196,11 +196,11 @@ button.icono-boton{
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    padding: auto;
     height: 100%;
     width: 85%;
     max-width: 100%;
     margin: auto;
+    padding-bottom: 30px;
 }
 .vista--producto{
     text-align: center;
