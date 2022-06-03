@@ -39,7 +39,7 @@
 
 .lupa{
     position: absolute;
-    right: 85px;
+    right: 40px;
     top: 37px;
     color: #a29b9b;
 }
@@ -183,7 +183,7 @@ ul li{
     }
 
     .lupa{
-        left: 300px;
+        left: 380px;
         /* right: 155px; */
         top: 40px;
         
@@ -272,7 +272,7 @@ ul li{
     }
 
     .lupa{
-        left: 400px;
+        left: 580px;
         /* right: 155px; */
         top: 40px;
         
