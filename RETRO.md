@@ -24,6 +24,20 @@ Para el segundo sprint, nos organizamos diferente, realizamos la division de tar
 
 ## Sprint 3 - "Template Engines"
 
+Para este sprint, realizamos la reestructuracion tanto del proyeto, como de las tareas. Realizamos una organizacion diferente, apuntamos a que se cumplan todos los objetivos del sprint y a implementar todas las mejoras necesarias que requeria el sitio. 
+Aun asi, tenemos cosas para seguir mejorando, es por esto que seguimos utilizando la dinamica de la estrella de mar.
+
+* Comenzar hacer: No tener verguenza al decir, no puedo, no llego, o simplemente me surguio un problema.
+Avisar el estado en que esta el proyecto.
+
+* Hacer mas: Mas comunicacion. Falta aun comunicacion en el equipo, saber cuando se puede contar con alguien / o si alguien tiene algun inconveniente, hacerlo saber, para poder entender y ayudar en tal caso sea necesario. Estamos para salir adelante en equipo. 
+
+* Continuar haciendo: Trabajar en equipo y aumentar la fluidez de la comunicacion.
+
+* Hacer menos: No avisar que no se asistira a la Weekly.
+
+* Dejar de hacer: No avisar si se continuara con el proyecto, para saber con quieres contar a la hora de la division de las tareas del nuevo sprint, y mejoras al sitio web.   
+
 
 ## Sprint 4 - "JSON + Metodos HTTP"
 
