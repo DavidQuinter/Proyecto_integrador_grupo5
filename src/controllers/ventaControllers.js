@@ -30,6 +30,10 @@ const ventaController =
     {
         res.render('mascotas',{titulo:'Mundo Mascota DH-Productos'});        
     },
+    todosLosProductos: (req, res) => 
+    {
+        res.render('todosLosProductos',{titulo:'Mundo Mascota DH-Productos'});        
+    },
 }
 
 

@@ -10,6 +10,7 @@ router.get('/productCart',ventaController.productCart);
 router.get('/productDetail',ventaController.productDetail);
 router.get('/sucursales',ventaController.sucursales);
 router.get('/mascotas',ventaController.mascotas);
+router.get('/todosLosProductos',ventaController.todosLosProductos);
 
 
 
